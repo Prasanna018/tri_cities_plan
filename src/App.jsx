@@ -11,6 +11,16 @@ import Committees from "./Components/Committees";
 import Employees from "./Components/Employees";
 import ContactUs from "./Components/ContactUs";
 import FederalCertification from "./Components/FederalCertification";
+import ProgramAndStudies from "./Pages/ProgramAndStudies";
+import ComprehensivePlan from "./Components/ComprehensivePlan";
+import CorridorPlans from "./Components/CorridorPlans";
+import SmallAreaPlans from "./Components/SmallAreaPlans";
+import ReginalPlans from "./Components/ReginalPlans";
+import Reports from "./Components/Reports";
+import Plans from "./Pages/Plans";
+import MTP from "./Components/plans/MTP";
+import MTIP from "./Components/plans/MTIP";
+import CMP from "./Components/plans/CMP";
 
 function App() {
   return (
@@ -35,14 +45,35 @@ function App() {
             <Route path="/about/" element={<About />}>
               <Route path="committees" element={<Committees />} />
               <Route path="employees" element={<Employees />} />
-              <Route path="contact-us" element={<ContactUs></ContactUs>}>
+              <Route path="contact-us" element={<ContactUs></ContactUs>} />
 
 
 
-              </Route>
+
               <Route path="federal-certification" element={<FederalCertification></FederalCertification>}></Route>
 
             </Route>
+
+            <Route path="/program-studies" element={<ProgramAndStudies></ProgramAndStudies>}>
+              <Route path="comprehensive-plans" element={<ComprehensivePlan></ComprehensivePlan>}></Route>
+              <Route path="corridor-plans" element={<CorridorPlans></CorridorPlans>}></Route>
+              <Route path="small-area-plans" element={<SmallAreaPlans></SmallAreaPlans>}></Route>
+              <Route path="regional-plans" element={<ReginalPlans></ReginalPlans>}></Route>
+              <Route path="reports" element={<Reports></Reports>}></Route>
+
+
+
+            </Route>
+
+            <Route path="/plan" element={<Plans></Plans>}>
+              <Route path="metropolitan-transportation-plans" element={<MTP></MTP>}></Route>
+              <Route path="metropolitan-transportation-improvement-programs" element={<MTIP></MTIP>}></Route>
+              <Route path="congestion-management-process" element={<CMP></CMP>}></Route>
+
+
+            </Route>
+
+
           </Routes>
 
         </div>
