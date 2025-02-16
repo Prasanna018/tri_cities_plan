@@ -7,6 +7,10 @@ import { Twitter } from 'lucide-react';
 import { Instagram } from 'lucide-react';
 import { Facebook } from "lucide-react";
 import About from "./Pages/About";
+import Committees from "./Components/Committees";
+import Employees from "./Components/Employees";
+import ContactUs from "./Components/ContactUs";
+import FederalCertification from "./Components/FederalCertification";
 
 function App() {
   return (
@@ -27,7 +31,18 @@ function App() {
           <Routes>
 
             <Route path="/" element={<Home></Home>}></Route>
-            <Route path="/about" element={<About></About>}></Route>
+            {/* about routes */}
+            <Route path="/about/" element={<About />}>
+              <Route path="committees" element={<Committees />} />
+              <Route path="employees" element={<Employees />} />
+              <Route path="contact-us" element={<ContactUs></ContactUs>}>
+
+
+
+              </Route>
+              <Route path="federal-certification" element={<FederalCertification></FederalCertification>}></Route>
+
+            </Route>
           </Routes>
 
         </div>

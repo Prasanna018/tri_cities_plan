@@ -1,6 +1,15 @@
 const links = [
     { id: 1, name: "Home", path: "/" },
-    { id: 2, name: "About", path: "/about" },
+    {
+        id: 2, name: "About", path: "/about",
+
+        subRoutes: [
+            { id: 2.1, name: "Committees", path: "/about/committees" },
+            { id: 2.2, name: "Employees", path: "/about/employees" },
+            { id: 2.3, name: "Contact Us", path: "/about/contact-us" },
+            { id: 2.4, name: "Federal Certification", path: "/about/federal-certification" }
+        ]
+    },
     {
         id: 3,
         name: "Program & Studies",
