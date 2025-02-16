@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+
+body {
+  background-color: #16172b;
+}
+
+a {
+  font-weight: bold;
+}
+
+li {
+  font-weight: bold;
+}
