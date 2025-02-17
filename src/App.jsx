@@ -25,6 +25,9 @@ import UPWP from "./Components/plans/UPWP";
 import PPP from "./Components/plans/PPP";
 import FPM from "./Components/plans/FPM";
 import ALOP from "./Components/plans/ALOP";
+import Data from "./Pages/Data";
+import ReginalTravelModel from "./Components/Data/ReginalTravelModel";
+import Roadway from "./Components/Data/Roadway";
 
 function App() {
   return (
@@ -77,6 +80,12 @@ function App() {
               <Route path="public-participation-plan" element={<PPP></PPP>}></Route>
               <Route path="federal-performance-measures" element={<FPM></FPM>}></Route>
               <Route path="annual-listing-of-obligated-projects" element={<ALOP></ALOP>}></Route>
+            </Route>
+
+            <Route path="/data" element={<Data></Data>}>
+
+              <Route path="regional-travel-model" element={<ReginalTravelModel></ReginalTravelModel>}></Route>
+              <Route path="VDOT-roadway-functional-classification" element={<Roadway></Roadway>}></Route>
             </Route>
 
 
