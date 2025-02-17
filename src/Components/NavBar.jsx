@@ -41,7 +41,9 @@ function NavBar() {
     return (
         <div className='w-full bg-[#172031] bg-opacity-10 backdrop-blur-md border-none h-fit rounded-4xl flex justify-between items-center px-4'>
             <div className='p-2'>
-                <img className='rounded-xl' height={20} width={100} src={logo} alt="Logo" />
+                <Link to='/'>
+                    <img className='rounded-xl' height={20} width={100} src={logo} alt="Logo" />
+                </Link>
             </div>
 
             {/* Desktop Navigation */}
@@ -137,7 +139,7 @@ function NavBar() {
                     ))}
                 </ul>
             </div>
-        </div>
+        </div >
     );
 }
 
