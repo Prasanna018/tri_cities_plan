@@ -23,7 +23,7 @@ const links = [
         ]
     },
     {
-        id: 4, name: "Plan", path: "/plans",
+        id: 4, name: "Plan", path: "/plan",
         subRoutes: [
             { id: 4.1, name: "Metropolitan Transportation Plans (MTP)", path: "/plan/metropolitan-transportation-plans" },
             { id: 4.2, name: "Metropolitan Transportation Improvement Programs (MTIP)", path: "/plan/metropolitan-transportation-improvement-programs" },
