@@ -30,6 +30,9 @@ import ReginalTravelModel from "./Components/Data/ReginalTravelModel";
 import Roadway from "./Components/Data/Roadway";
 import EnvJustice from "./Components/Data/EnvJustice";
 import TransportationDash from "./Components/Data/TransportationDash";
+import Funding from "./Pages/Funding";
+import FFA from "./Components/funding/FFA";
+import Smart from "./Components/funding/Smart";
 
 function App() {
   return (
@@ -90,6 +93,11 @@ function App() {
               <Route path="VDOT-roadway-functional-classification" element={<Roadway></Roadway>}></Route>
               <Route path="environmental-justice" element={<EnvJustice></EnvJustice>}></Route>
               <Route path="transportation-dashboard" element={<TransportationDash></TransportationDash>}></Route>
+            </Route>
+
+            <Route path="/funding" element={<Funding></Funding>}>
+              <Route path="federal-funding-authorizations" element={<FFA></FFA>}></Route>
+              <Route path="smart-scale" element={<Smart></Smart>}></Route>
             </Route>
 
 
