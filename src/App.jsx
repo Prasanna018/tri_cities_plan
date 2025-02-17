@@ -28,6 +28,8 @@ import ALOP from "./Components/plans/ALOP";
 import Data from "./Pages/Data";
 import ReginalTravelModel from "./Components/Data/ReginalTravelModel";
 import Roadway from "./Components/Data/Roadway";
+import EnvJustice from "./Components/Data/EnvJustice";
+import TransportationDash from "./Components/Data/TransportationDash";
 
 function App() {
   return (
@@ -86,6 +88,8 @@ function App() {
 
               <Route path="regional-travel-model" element={<ReginalTravelModel></ReginalTravelModel>}></Route>
               <Route path="VDOT-roadway-functional-classification" element={<Roadway></Roadway>}></Route>
+              <Route path="environmental-justice" element={<EnvJustice></EnvJustice>}></Route>
+              <Route path="transportation-dashboard" element={<TransportationDash></TransportationDash>}></Route>
             </Route>
 
 
