@@ -21,6 +21,10 @@ import Plans from "./Pages/Plans";
 import MTP from "./Components/plans/MTP";
 import MTIP from "./Components/plans/MTIP";
 import CMP from "./Components/plans/CMP";
+import UPWP from "./Components/plans/UPWP";
+import PPP from "./Components/plans/PPP";
+import FPM from "./Components/plans/FPM";
+import ALOP from "./Components/plans/ALOP";
 
 function App() {
   return (
@@ -69,8 +73,10 @@ function App() {
               <Route path="metropolitan-transportation-plans" element={<MTP></MTP>}></Route>
               <Route path="metropolitan-transportation-improvement-programs" element={<MTIP></MTIP>}></Route>
               <Route path="congestion-management-process" element={<CMP></CMP>}></Route>
-
-
+              <Route path="unified-planning-work-program" element={<UPWP></UPWP>}></Route>
+              <Route path="public-participation-plan" element={<PPP></PPP>}></Route>
+              <Route path="federal-performance-measures" element={<FPM></FPM>}></Route>
+              <Route path="annual-listing-of-obligated-projects" element={<ALOP></ALOP>}></Route>
             </Route>
 
 
