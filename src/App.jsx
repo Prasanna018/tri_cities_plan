@@ -3,9 +3,7 @@ import React from "react";
 import { Routes, Route } from 'react-router-dom'
 import NavBar from "./Components/NavBar";
 import Home from "./Pages/Home";
-import { Twitter } from 'lucide-react';
-import { Instagram } from 'lucide-react';
-import { Facebook } from "lucide-react";
+
 import About from "./Pages/About";
 import Committees from "./Components/Committees";
 import Employees from "./Components/Employees";
@@ -134,6 +132,7 @@ function App() {
             <span className="text-xl">Web Policies</span>
 
           </div>
+
           <div className="flex flex-col py-1 justify-start items-start">
             <a className="py-1 underline text-sm"
 

@@ -15,9 +15,9 @@ const links = [
         name: "Program & Studies",
         path: "/program-studies",
         subRoutes: [
-            { id: 3.1, name: "Comprehensive Plans", path: "/program-studies/comprehensive-plans" },
+            // { id: 3.1, name: "Comprehensive Plans", path: "/program-studies/comprehensive-plans" },
             { id: 3.2, name: "Corridor Plans", path: "/program-studies/corridor-plans" },
-            { id: 3.3, name: "Small Area Plans", path: "/program-studies/small-area-plans" },
+            // { id: 3.3, name: "Small Area Plans", path: "/program-studies/small-area-plans" },
             { id: 3.4, name: "Regional Plans", path: "/program-studies/regional-plans" },
             { id: 3.5, name: "Reports", path: "/program-studies/reports" }
         ]
