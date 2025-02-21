@@ -3,9 +3,9 @@ import { Link, Outlet, useLocation } from 'react-router-dom'
 
 
 const leftlinks = [
-    { id: 3.1, name: "Comprehensive Plans", path: "comprehensive-plans" },
+
     { id: 3.2, name: "Corridor Plans", path: "corridor-plans" },
-    { id: 3.3, name: "Small Area Plans", path: "small-area-plans" },
+
     { id: 3.4, name: "Regional Plans", path: "regional-plans" },
     { id: 3.5, name: "Reports", path: "reports" }
 ]
