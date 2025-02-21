@@ -134,7 +134,7 @@ function App() {
             <span className="text-xl">Web Policies</span>
 
           </div>
-          <div className="flex flex-col py-1 ">
+          <div className="flex flex-col py-1 justify-start items-start">
             <a className="py-1 underline text-sm"
 
               href="https://craterpdc.org/about-us/website-accessibility/"
