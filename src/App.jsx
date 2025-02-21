@@ -181,7 +181,11 @@ function App() {
 
 
 
+
       </footer>
+      <div className="bg-[#011a39] py-4 text-white lg:pl-52">
+        <p>© Crater Planning District Commission</p>
+      </div>
     </div>
   );
 }
