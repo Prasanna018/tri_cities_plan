@@ -39,7 +39,7 @@ function Committees() {
                         <button className='md:w-[150px] cursor-pointer p-2 w-full bg-orange-700 rounded-2xl hover:bg-orange-900 duration-300 '
                             onClick={() => setIsOpen2(true)}
                         >
-                            Past Meetings
+                            Past <br></br>Meetings
                         </button>
 
 
@@ -94,7 +94,7 @@ function Committees() {
                         <button className='md:w-[150px] p-2 w-full cursor-pointer bg-orange-700 rounded-2xl hover:bg-orange-900 duration-300'
                             onClick={() => setIsOpen4(true)}
                         >
-                            Past Meetings
+                            Past<br></br> Meetings
                         </button>
 
 
