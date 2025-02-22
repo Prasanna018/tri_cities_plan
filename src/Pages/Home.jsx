@@ -36,14 +36,46 @@ function Home() {
 
                 </div>
 
-                <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 p-4 w-full">
-                    {boxes.map((box, index) => (
-                        <div key={index} className="border rounded-lg p-4 text-center shadow-lg">
-                            <img src={box.img} alt={box.text} className="w-full h-[15rem] object-contain mb-2 rounded" />
-                            <p className="text-sm text-gray-400 mb-2 py-4">{box.text}</p>
-                            <a href={box.link} className="text-blue-500 hover:underline">
-                                View More
-                            </a>
+                <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-x-22 gap-y-20 py-20 w-full">
+
+                    {boxes.map((box) => (
+                        <div key={box.id} className="relative w-72 p-6 bg-[#bde0a4] text-center ">
+                            {/* Top Label */}
+                            <div className="absolute -top-5 left-1/2 -translate-x-1/2 text-2xl  bg-[#1e6579] text-white px-4 py-1  font-semibold">
+                                <span className='text-xl p-10 relative bottom-1'>
+
+                                    {box.title}
+
+                                </span>
+                                <div className="absolute -left-2 -top-2  bottom-2 right-2 inset-0 border-2 border-black -z-10
+                                
+                                ">
+
+                                </div>
+                            </div>
+
+                            {/* Main Content */}
+                            <p className="text-gray-700 text-sm mt-6">{box.year}</p>
+                            <h2 className="text-2xl font-bold text-[#609293] leading-tight text-start h-[90px]">
+                                {/* {box.mainTitle?.split(" ").map((word, index) => (
+                                    <span key={index}>{word} <br /></span>
+                                ))} */}
+                                {box.mainTitle}
+                            </h2>
+                            <p className="text-gray-700 text-start text-sm mt-2 h-[220px]">
+                                {box.des}
+                            </p>
+
+                            {/* Button */}
+                            <div className="absolute -bottom-5 -right-20
+                             -translate-x-1/2 bg-[#415971] px-6 py-2 w-64 ">
+                                <a href={box.link} target="_blank" rel="noopener noreferrer">
+                                    <button className="flex items-center justify-center gap-2 w-full bg-white text-gray-900 py-2 px-4 text-sm font-semibold shadow-md cursor-pointer">
+                                        View More
+                                        {/* <span className="text-gray-500">⬇</span> */}
+                                    </button>
+                                </a>
+                            </div>
                         </div>
                     ))}
                 </div>

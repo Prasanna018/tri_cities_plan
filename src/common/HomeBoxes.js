@@ -1,16 +1,26 @@
 import box1 from '../assets/box1.jpg'
+import links from './NavLinks'
 
 export const boxes = [
-    { img: box1, text: "The NFRMPO is currently recruiting for a Controller, a Mobility Director, and a Transportation Planning Intern. View the Job Posting page for job descriptions and application process.", link: "#" },
-    { img: box1, text: "The NFRMPO is currently recruiting for a Controller, a Mobility Director, and a Transportation Planning Intern. View the Job Posting page for job descriptions and application process.", link: "#" },
-    { img: box1, text: "The NFRMPO is currently recruiting for a Controller, a Mobility Director, and a Transportation Planning Intern. View the Job Posting page for job descriptions and application process.", link: "#" },
-    { img: box1, text: "The NFRMPO is currently recruiting for a Controller, a Mobility Director, and a Transportation Planning Intern. View the Job Posting page for job descriptions and application process.", link: "#" },
-    { img: box1, text: "The NFRMPO is currently recruiting for a Controller, a Mobility Director, and a Transportation Planning Intern. View the Job Posting page for job descriptions and application process.", link: "#" },
-    { img: box1, text: "The NFRMPO is currently recruiting for a Controller, a Mobility Director, and a Transportation Planning Intern. View the Job Posting page for job descriptions and application process.", link: "#" },
-    { img: box1, text: "The NFRMPO is currently recruiting for a Controller, a Mobility Director, and a Transportation Planning Intern. View the Job Posting page for job descriptions and application process.", link: "#" },
-    { img: box1, text: "The NFRMPO is currently recruiting for a Controller, a Mobility Director, and a Transportation Planning Intern. View the Job Posting page for job descriptions and application process.", link: "#" },
-    { img: box1, text: "The NFRMPO is currently recruiting for a Controller, a Mobility Director, and a Transportation Planning Intern. View the Job Posting page for job descriptions and application process.", link: "#" },
-];
+    {
+        id: 1, title: "LRTP", year: "2045", mainTitle: "Long Range Transportation Plan", des: "The LRTP provides a common vision for the community’s future transportation needs and guides the investment of public funds in transportation facilities, addressing a timeline of 20 or more years.",
+        link: "https://tri-cities-plan.vercel.app/plan/metropolitan-transportation-plans"
+    },
+    {
+
+        id: 2, title: "TIP", year: "2024/25 - 2028/29", mainTitle: "Transportation Improvement Program", des: "The Transportation Improvement Program (TIP) is a comprehensive list of federal, state and locally funded transportation projects. All modes of transportation are included in the TIP. Produced annually, the TIP is known as a short-range plan because it allocates resources and dollars over each upcoming 5-year period by project phase.", link: "https://tri-cities-plan.vercel.app/plan/metropolitan-transportation-plans"
+    }
+    ,
+    {
+        id: 3, title: "LOPP", year: "2030", mainTitle: "Prioritized Project List", des: "The List of Prioritized Project (LOPP) contains a list of unfunded highway, transit, bicycle, and pedestrian projects that have been prioritized for funding. The list is updated annually, allowing local governments to plan for the funding and implementation of projects in their respective communities.", link: "https://tri-cities-plan.vercel.app/plan/metropolitan-transportation-improvement-programs"
+    },
+    { id: 4, title: "PPP", year: "2023-2026", mainTitle: "Public Participation Plan", des: "The Public Participation Plan (PPP) provides guidelines used by the HRTPO to inform and gather input from residents, communities, and interest groups throughout the six counties in order to expand the information available for planning.", link: "https://tri-cities-plan.vercel.app/plan/metropolitan-transportation-plans" },
+    { id: 5, title: "UPWP", year: "2024/25 - 2025/26", mainTitle: "United Planning Work Program", des: "This Unified Planning Work Program (UPWP) describes the transportation planning tasks to be performed within the HRTPO study area.", link: "https://tri-cities-plan.vercel.app/plan/metropolitan-transportation-plans" },
+    {
+        id: 6, title: "CMP", year: "2025,2034", mainTitle: "Congestion Management Process (CMP)", des: "The Congestion Management Process (CMP) is a systematic approach for managing congestion throughout the region, providing the safe and effective integrated management and operation of new and existing transportation facilities through the use of demand reduction and operational management strategies.", link: ""
+    }
+
+]
 
 
 
