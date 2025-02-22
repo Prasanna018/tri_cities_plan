@@ -132,7 +132,7 @@ function App() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-[#012756]  text-white text-center flex space-y-6 ;lg:flex-row items-center justify-evenly py-4 h-[250px]">
+      <footer className="bg-[#012756] flex-col items-center  text-white text-center flex space-y-6 lg:flex-row lg:items-center lg:justify-evenly py-4 lg:h-[250px]">
 
         <div className="flex flex-col">
           <div className="flex justify-start py-3">
@@ -150,7 +150,7 @@ function App() {
         </div>
 
 
-        <div className="flex flex-col">
+        <div className="flex flex-col ">
           <div className="flex justify-start py-3">
 
             <span className="text-xl">Web Policies</span>

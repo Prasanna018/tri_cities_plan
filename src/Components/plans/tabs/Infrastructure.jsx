@@ -9,7 +9,7 @@ function Infrastructure() {
                     and Bridge Targets. Please see the table below for the set targets.</p>
             </div>
 
-            <div className="w-full max-w-4xl mx-auto bg-transparent">
+            <div className="w-full max-w-4xl mx-auto bg-transparent py-4">
                 <table className="w-full border-collapse">
                     {/* Header Row */}
                     <thead>
