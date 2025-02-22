@@ -32,7 +32,7 @@ import Funding from "./Pages/Funding";
 import FFA from "./Components/funding/FFA";
 import Smart from "./Components/funding/Smart";
 import footer from './assets/footer.jpg'
-import MTIP1 from "./Components/plans/tabs/MTIP1.JSX";
+import MTIP1 from "./Components/plans/tabs/MTIP1";
 import MTIP2 from "./Components/plans/tabs/MTIP2";
 import MTIP3 from "./Components/plans/tabs/MTIP3";
 import Safety from "./Components/plans/tabs/Safety";
