@@ -18,11 +18,28 @@ function ALOP() {
             <p className='py-5'>Click on the link below to view the most recent Annual Listing of Obligated Projects.</p>
 
             <a
-                href='https://craterpdc.org/DocumentLibrary/Transportation/Documents/TCAMPO_2050_SE_20230713.pdf'
+                href='https://craterpdc.org/wp-content/uploads/2024/11/TRI-CITIES-FFY24-MPO-STIP-Transaction-Report-1.pdf'
                 target='_blank'
                 className='hover:underline text-blue-500 py-2'
 
-            >2024 Annual Listing of Obligated Projects.pdf</a>
+            >Annual Obligation Report -Highways</a>
+            <br></br>
+
+            <a
+                href='https://craterpdc.org/wp-content/uploads/2024/11/TRI-CITIES-FFY24-MPO-STIP-Transaction-Report-Appendix-1.pdf'
+                target='_blank'
+                className='hover:underline text-blue-500 py-2'
+
+            >Annual Obligation Report – Highways (Grouped Projects)</a>
+            <br></br>
+
+            <a
+                href='https://craterpdc.org/wp-content/uploads/2024/11/Final-Virginia-Transit-Obligated-Funds-FFY24.pdf'
+                target='_blank'
+                className='hover:underline text-blue-500 py-2'
+
+            >Annual Obligation Report – Transit</a>
+
 
         </div>
     )
