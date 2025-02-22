@@ -32,6 +32,14 @@ import Funding from "./Pages/Funding";
 import FFA from "./Components/funding/FFA";
 import Smart from "./Components/funding/Smart";
 import footer from './assets/footer.jpg'
+import MTIP1 from "./Components/plans/tabs/MTIP1.JSX";
+import MTIP2 from "./Components/plans/tabs/MTIP2";
+import MTIP3 from "./Components/plans/tabs/MTIP3";
+import Safety from "./Components/plans/tabs/Safety";
+import Infrastructure from "./Components/plans/tabs/Infrastructure";
+import Reliability from "./Components/plans/tabs/Reliability";
+import TAM from "./Components/plans/tabs/TAM";
+import Transit_Safety from "./Components/plans/tabs/Transit_Safety";
 
 function App() {
   return (
@@ -78,11 +86,27 @@ function App() {
 
             <Route path="/plan" element={<Plans></Plans>}>
               <Route path="metropolitan-transportation-plans" element={<MTP></MTP>}></Route>
-              <Route path="metropolitan-transportation-improvement-programs" element={<MTIP></MTIP>}></Route>
+              <Route path="metropolitan-transportation-improvement-programs" element={<MTIP></MTIP>}>
+                <Route path="2024-27-MTIP" element={<MTIP1></MTIP1>}></Route>
+                <Route path="2023-26-MTIP" element={<MTIP2></MTIP2>}>
+
+                </Route>
+                <Route path="2022-25-MTIP" element={<MTIP3></MTIP3>}></Route>
+
+              </Route>
               <Route path="congestion-management-process" element={<CMP></CMP>}></Route>
               <Route path="unified-planning-work-program" element={<UPWP></UPWP>}></Route>
               <Route path="public-participation-plan" element={<PPP></PPP>}></Route>
-              <Route path="federal-performance-measures" element={<FPM></FPM>}></Route>
+              <Route path="transportation-performance-management" element={<FPM></FPM>}>
+                {/* fpm */}
+                <Route path="Safety" element={<Safety></Safety>} ></Route>
+                <Route path="Infrastructure" element={<Infrastructure></Infrastructure>}></Route>
+                <Route path="Reliability" element={<Reliability></Reliability>}></Route>
+                <Route path="TAM" element={<TAM></TAM>}></Route>
+                <Route path="Transit Safety" element={<Transit_Safety></Transit_Safety>}></Route>
+
+
+              </Route>
               <Route path="annual-listing-of-obligated-projects" element={<ALOP></ALOP>}></Route>
             </Route>
 
