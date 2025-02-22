@@ -1,6 +1,7 @@
-import { Outdent } from 'lucide-react'
-import React from 'react'
+
+import React, { useEffect } from 'react'
 import { Link, Outlet, useLocation } from 'react-router-dom'
+
 
 const tablinks = [
     { id: 1, name: "Safety", path: "Safety" },
@@ -11,6 +12,8 @@ const tablinks = [
 ]
 function FPM() {
     const location = useLocation();
+
+
     return (
         <div className='p-4 bg-[#1e2a3a]'>
 
@@ -95,7 +98,9 @@ function FPM() {
 
             <div className='py-6'>
 
+
                 <Outlet></Outlet>
+
             </div>
 
 

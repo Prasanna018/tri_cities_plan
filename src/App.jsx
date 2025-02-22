@@ -1,6 +1,7 @@
 import React from "react";
 
-import { Routes, Route } from 'react-router-dom'
+
+import { Routes, Route, Navigate } from 'react-router-dom'
 import NavBar from "./Components/NavBar";
 import Home from "./Pages/Home";
 
@@ -87,10 +88,12 @@ function App() {
             <Route path="/plan" element={<Plans></Plans>}>
               <Route path="metropolitan-transportation-plans" element={<MTP></MTP>}></Route>
               <Route path="metropolitan-transportation-improvement-programs" element={<MTIP></MTIP>}>
+                <Route index element={<Navigate to="2024-27-MTIP" replace />} />
                 <Route path="2024-27-MTIP" element={<MTIP1></MTIP1>}></Route>
                 <Route path="2023-26-MTIP" element={<MTIP2></MTIP2>}>
 
                 </Route>
+
                 <Route path="2022-25-MTIP" element={<MTIP3></MTIP3>}></Route>
 
               </Route>
@@ -99,6 +102,7 @@ function App() {
               <Route path="public-participation-plan" element={<PPP></PPP>}></Route>
               <Route path="transportation-performance-management" element={<FPM></FPM>}>
                 {/* fpm */}
+                <Route index element={<Navigate to="Safety" replace />} />
                 <Route path="Safety" element={<Safety></Safety>} ></Route>
                 <Route path="Infrastructure" element={<Infrastructure></Infrastructure>}></Route>
                 <Route path="Reliability" element={<Reliability></Reliability>}></Route>

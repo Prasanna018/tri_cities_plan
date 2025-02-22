@@ -3,13 +3,13 @@ import { Link, Outlet, useLocation } from 'react-router-dom'
 
 
 const tablinks = [
-    { id: 1, name: "2024-27 MTIP", path: '2024-27-MTIP' },
+    { id: 1, name: "2024-27 MTIP", path: "2024-27-MTIP" },
     { id: 2, name: "2023-26 MTIP", path: "2023-26-MTIP" },
     { id: 3, name: "2022-25 MTIP", path: "2022-25-MTIP" }
 ]
 
 function MTIP() {
-    const location = useLocation("2024-27-MTIP");
+    const location = useLocation();
     return (
         <div className='p-4 bg-[#1e2a3a]'>
             <div className='py-4'>
