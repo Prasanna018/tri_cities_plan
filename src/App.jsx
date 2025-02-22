@@ -103,7 +103,7 @@ function App() {
                 <Route path="Infrastructure" element={<Infrastructure></Infrastructure>}></Route>
                 <Route path="Reliability" element={<Reliability></Reliability>}></Route>
                 <Route path="TAM" element={<TAM></TAM>}></Route>
-                <Route path="Transit Safety" element={<Transit_Safety></Transit_Safety>}></Route>
+                <Route path="Transit-Safety" element={<Transit_Safety></Transit_Safety>}></Route>
 
 
               </Route>

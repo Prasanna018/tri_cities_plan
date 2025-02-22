@@ -7,7 +7,7 @@ const tablinks = [
     { id: 2, name: "Infrastructure", path: "Infrastructure" },
     { id: 3, name: "Reliability", path: "Reliability" },
     { id: 4, name: "TAM", path: "TAM" },
-    { id: 5, name: "Transit Safety", path: "Transit Safety" }
+    { id: 5, name: "Transit Safety", path: "Transit-Safety" }
 ]
 function FPM() {
     const location = useLocation();
