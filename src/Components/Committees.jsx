@@ -22,7 +22,7 @@ function Committees() {
 
                 <div className='pt-6 pb-6'>
 
-                    <span className='text-slate-300 text-xl'>Policy Committee
+                    <span className='text-slate-300 text-xl font-bold'>Policy Committee
                     </span>
 
                 </div>
@@ -77,7 +77,7 @@ function Committees() {
 
                 <div className='pt-6 pb-6'>
 
-                    <span className='text-slate-300 text-xl'>Technical Advisory Committee
+                    <span className='text-slate-300 text-xl font-bold'>Technical Advisory Committee
                     </span>
 
                 </div>
