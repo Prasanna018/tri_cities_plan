@@ -33,13 +33,13 @@ function Committees() {
                         <button className='md:w-[150px] p-2 w-full  bg-orange-700 cursor-pointer rounded-2xl hover:bg-orange-900 duration-300'
                             onClick={() => setIsOpen1(true)}
                         >
-                            Upcoming AQAC Meeting
+                            Upcoming  Meeting
 
                         </button>
                         <button className='md:w-[150px] cursor-pointer p-2 w-full bg-orange-700 rounded-2xl hover:bg-orange-900 duration-300 '
                             onClick={() => setIsOpen2(true)}
                         >
-                            Past Meeting Materials
+                            Past Meetings
                         </button>
 
 
@@ -88,13 +88,13 @@ function Committees() {
                         <button className='md:w-[150px] p-2 w-full cursor-pointer bg-orange-700 hover:bg-orange-900 duration-300 rounded-2xl'
                             onClick={() => setIsOpen3(true)}
                         >
-                            Upcoming AQAC Meeting
+                            Upcoming  Meetings
 
                         </button>
                         <button className='md:w-[150px] p-2 w-full cursor-pointer bg-orange-700 rounded-2xl hover:bg-orange-900 duration-300'
                             onClick={() => setIsOpen4(true)}
                         >
-                            Past Meeting Materials
+                            Past Meetings
                         </button>
 
 
