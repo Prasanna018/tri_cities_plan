@@ -82,7 +82,9 @@ function FPM() {
             <div className='flex justify-around items-center py-8'>
 
                 {tablinks.map((link, id) => {
-                    return <div className='border-2 p-2 rounded-xl'>
+                    return <div
+                        key={link.id}
+                        className='border-2 p-2 rounded-xl'>
 
                         <Link
                             className={` ${location.pathname.includes(link.path) ? "text-blue-500 " : ""}`}

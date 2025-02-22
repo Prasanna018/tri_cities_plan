@@ -30,7 +30,7 @@ const links = [
             { id: 4.3, name: "Congestion Management Process (CMP)", path: "/plan/congestion-management-process" },
             { id: 4.4, name: "Unified Planning Work Program (UPWP)", path: "/plan/unified-planning-work-program" },
             { id: 4.5, name: "Public Participation Plan (PPP)", path: "/plan/public-participation-plan" },
-            { id: 4.6, name: "Federal Performance Measures", path: "/plan/federal-performance-measures" },
+            { id: 4.6, name: "Transportation Performance Management", path: "/plan/transportation-performance-management" },
             { id: 4.7, name: "Annual Listing of Obligated Projects", path: "/plan/annual-listing-of-obligated-projects" }
         ]
     },
