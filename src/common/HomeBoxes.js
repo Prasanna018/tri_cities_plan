@@ -8,7 +8,7 @@ export const boxes = [
     },
     {
 
-        id: 2, title: "TIP", year: "2024/25 - 2028/29", mainTitle: "Transportation Improvement Program", des: "The Transportation Improvement Program (TIP) is a comprehensive list of federal, state and locally funded transportation projects. All modes of transportation are included in the TIP. Produced annually, the TIP is known as a short-range plan because it allocates resources and dollars over each upcoming 5-year period by project phase.", link: "https://tri-cities-plan.vercel.app/plan/metropolitan-transportation-plans"
+        id: 2, title: "TIP", year: "2024/25 - 2028/29", mainTitle: "Transportation Improvement Program", des: "The Transportation Improvement Program (TIP) is a comprehensive list of federal, state and locally funded transportation projects. All modes of transportation are included in the TIP. Produced annually, the TIP is known as a short-range plan because it allocates resources and dollars over each upcoming 5-year period by project phase.", link: "https://tri-cities-plan.vercel.app/plan/metropolitan-transportation-improvement-programs"
     }
     ,
     {

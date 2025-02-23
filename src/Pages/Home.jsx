@@ -55,7 +55,7 @@ function Home() {
                             </div>
 
                             {/* Main Content */}
-                            <p className="text-gray-700 text-sm mt-6">{box.year}</p>
+                            {/* <p className="text-gray-700 text-sm mt-6">{box.year}</p> */}
                             <h2 className="text-2xl font-bold text-[#609293] leading-tight text-start h-[90px]">
                                 {/* {box.mainTitle?.split(" ").map((word, index) => (
                                     <span key={index}>{word} <br /></span>
@@ -69,7 +69,7 @@ function Home() {
                             {/* Button */}
                             <div className="absolute -bottom-5 -right-20
                              -translate-x-1/2 bg-[#415971] px-6 py-2 w-64 ">
-                                <a href={box.link} target="_blank" rel="noopener noreferrer">
+                                <a href={box.link} target="_blank" >
                                     <button className="flex items-center justify-center gap-2 w-full bg-white text-gray-900 py-2 px-4 text-sm font-semibold shadow-md cursor-pointer">
                                         View More
                                         {/* <span className="text-gray-500">⬇</span> */}
