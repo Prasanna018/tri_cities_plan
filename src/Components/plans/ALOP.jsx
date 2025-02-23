@@ -5,7 +5,7 @@ function ALOP() {
         <div className='p-4 bg-[#1e2a3a]'>
 
             <div className='py-4'>
-                <h1 className='text-3xl font-bold'>Annual Listing of Obligated Projects</h1>
+                <h1 className='text-3xl font-bold'>Listing of Obligated Projects</h1>
                 <p className='py-4'>The annual listing of obligated projects is a record for tracking the progress of projects receiving federal transportation funds. This listing is updated annually and is intended to increase public awareness of federal spending on transportation projects in the Jackson MPO’s planning area. The Infrastructure Investment and Jobs Act (IIJA), signed into law by the President in November 2021, requires that:</p>
             </div>
 

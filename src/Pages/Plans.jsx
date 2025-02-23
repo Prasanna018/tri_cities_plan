@@ -8,7 +8,7 @@ const leftlinks = [
     { id: 4.4, name: "Unified Planning Work Program (UPWP)", path: "unified-planning-work-program" },
     { id: 4.5, name: "Public Participation Plan (PPP)", path: "public-participation-plan" },
     { id: 4.6, name: "Transportation Performance Management", path: "transportation-performance-management" },
-    { id: 4.7, name: "Annual Listing of Obligated Projects", path: "annual-listing-of-obligated-projects" }
+    { id: 4.7, name: "Listing of Obligated Projects", path: "listing-of-obligated-projects" }
 ]
 function Plans() {
     const location = useLocation();

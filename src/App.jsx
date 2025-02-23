@@ -111,7 +111,7 @@ function App() {
 
 
               </Route>
-              <Route path="annual-listing-of-obligated-projects" element={<ALOP></ALOP>}></Route>
+              <Route path="listing-of-obligated-projects" element={<ALOP></ALOP>}></Route>
             </Route>
 
             <Route path="/data" element={<Data></Data>}>
