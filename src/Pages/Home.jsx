@@ -6,8 +6,13 @@ import { MapPin } from 'lucide-react';
 import { boxes } from '../common/HomeBoxes'
 import { videos } from '../common/HomeVideos'
 import { Upcoming_Events } from '../common/upcomingEvents';
+import { useNavigate } from 'react-router-dom';
 
 function Home() {
+    const navigate = useNavigate();
+
+
+
     return (
         <div className='pt-8 flex justify-center'>
 
@@ -69,10 +74,17 @@ function Home() {
                             {/* Button */}
                             <div className="absolute -bottom-5 -right-20
                              -translate-x-1/2 bg-[#415971] px-6 py-2 w-64 ">
-                                <a href={box.link} target="_blank" >
-                                    <button className="flex items-center justify-center gap-2 w-full bg-white text-gray-900 py-2 px-4 text-sm font-semibold shadow-md cursor-pointer">
+                                <a target="_blank" >
+
+                                    <button
+                                        onClick={() => {
+                                            navigate(box.link)
+
+                                        }}
+
+                                        className="flex items-center justify-center gap-2 w-full bg-white text-gray-900 py-2 px-4 text-sm font-semibold shadow-md cursor-pointer">
                                         View More
-                                        {/* <span className="text-gray-500">⬇</span> */}
+
                                     </button>
                                 </a>
                             </div>
