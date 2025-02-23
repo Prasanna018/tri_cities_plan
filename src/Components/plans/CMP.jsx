@@ -17,23 +17,22 @@ function CMP() {
 
                 <div className='flex flex-col space-y-2.5'>
 
-                    <span>Full Document: {" "}<a
-                        href='https://craterpdc.org/DocumentLibrary/Transportation/Documents/01252017_Final_TCAMP_CMP.pdf'
-                        target='_blank'
-                        className='hover:underline cursor-pointer text-blue-500'>2025 CMP</a></span>
+                    <h1 className='text-3xl font-bold py-3'>Reports</h1>
+                    <div className='py-2 pl-2 flex flex-col'>
 
-                    <span>Staff contact: {" "}<a
-                        href='zmumuni@craterpdc.org'
-                        target='_blank'
-                        className='hover:underline cursor-pointer text-blue-500'>zmumuni@craterpdc.org</a></span>
+                        <span>○ {" "}<a
+                            href='https://craterpdc.org/DocumentLibrary/Transportation/Documents/01252017_Final_TCAMP_CMP.pdf'
+                            target='_blank'
+                            className='hover:underline cursor-pointer text-blue-500'>2025 CMP</a></span>
 
-                    <span>2016 CMP Report</span>
 
-                    <span>Full Document:{" "}<a
-                        href='https://craterpdc.org/DocumentLibrary/Transportation/Documents/01252017_Final_TCAMP_CMP.pdf'
-                        target='_blank'
-                        className='hover:underline cursor-pointer text-blue-500'>2016 CMP</a></span>
 
+                        <span>○ {" "}<a
+                            href='https://craterpdc.org/DocumentLibrary/Transportation/Documents/01252017_Final_TCAMP_CMP.pdf'
+                            target='_blank'
+                            className='hover:underline cursor-pointer text-blue-500'>2016 CMP</a></span>
+
+                    </div>
                 </div>
 
             </div>
