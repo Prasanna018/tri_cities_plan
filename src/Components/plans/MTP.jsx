@@ -14,7 +14,7 @@ function MTP() {
             <p className='text-[16px] text-slate-400 pt-4 pb-4'>
                 Feedback from local transportation network users is essential in shaping a comprehensive long-range transportation plan. Your input will help the study team identify and address key priorities throughout the planning process. Participate in the Visioning Phase Outreach Survey <span className='cursor-pointer'><a target='_blank'
                     href='https://publicinput.com/tcamposurveycpdctransportation'
-                    className='text-blue-500'>here</a></span>
+                    className='text-blue-500'>here.</a></span>
 
             </p>
             <h1 className='text-3xl font-bold pt-6'>2045 Metropolitan Transportation Plan</h1>
@@ -23,7 +23,7 @@ function MTP() {
                 The 2045 Metropolitan Transportation Plan was adopted by the TCAMPO’s Policy Committee on November 12, 2020. The Metropolitan Transportation Plan and accompanying documents can be found <span className='cursor-pointer'><a
                     target='_blank'
                     href='https://craterpdc.org/plan-2045/'
-                    className='text-blue-500'>here</a></span>
+                    className='text-blue-500'>here.</a></span>
 
             </p>
         </div>

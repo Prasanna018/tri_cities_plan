@@ -14,7 +14,7 @@ function PPP() {
                         href='https://craterpdc.org/wp-content/uploads/2024/05/FINALCAMPOFY25UPWP.pdf'
                         target='_blank'
                         className='text-blue-500 hover:underline'
-                    >here</a>
+                    >here.</a>
                 </p>
 
             </div>

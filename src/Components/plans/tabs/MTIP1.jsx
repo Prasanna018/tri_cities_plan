@@ -1,6 +1,7 @@
 import React from 'react'
 
 function MTIP1() {
+
     return (
         <div className='w-full
         '>
@@ -54,7 +55,7 @@ function MTIP1() {
                         <a
                             className='underline hover:cursor-pointer text-blue-500'
                         >Project Locations</a> {" "}
-                        here
+                        here.
                     </span>
                 </div>
             </div>
