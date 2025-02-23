@@ -12,13 +12,13 @@ export const boxes = [
     }
     ,
     {
-        id: 3, title: "LOPP", year: "2030", mainTitle: "Prioritized Project List", des: "The List of Prioritized Project (LOPP) contains a list of unfunded highway, transit, bicycle, and pedestrian projects that have been prioritized for funding. The list is updated annually, allowing local governments to plan for the funding and implementation of projects in their respective communities.", link: "/plan/congestion-management-process"
+        id: 3, title: "LOPP", year: "2030", mainTitle: "Prioritized Project List", des: "The List of Prioritized Project (LOPP) contains a list of unfunded highway, transit, bicycle, and pedestrian projects that have been prioritized for funding. The list is updated annually, allowing local governments to plan for the funding and implementation of projects in their respective communities.", link: "/plan/listing-of-obligated-projects"
     },
-    { id: 4, title: "PPP", year: "2023-2026", mainTitle: "Public Participation Plan", des: "The Public Participation Plan (PPP) provides guidelines used by the HRTPO to inform and gather input from residents, communities, and interest groups throughout the six counties in order to expand the information available for planning.", link: "/plan/unified-planning-work-program" },
+    { id: 4, title: "PPP", year: "2023-2026", mainTitle: "Public Participation Plan", des: "The Public Participation Plan (PPP) provides guidelines used by the HRTPO to inform and gather input from residents, communities, and interest groups throughout the six counties in order to expand the information available for planning.", link: "/plan/public-participation-plan" },
 
-    { id: 5, title: "UPWP", year: "2024/25 - 2025/26", mainTitle: "United Planning Work Program", des: "This Unified Planning Work Program (UPWP) describes the transportation planning tasks to be performed within the HRTPO study area.", link: "/plan/public-participation-plan" },
+    { id: 5, title: "UPWP", year: "2024/25 - 2025/26", mainTitle: "United Planning Work Program", des: "This Unified Planning Work Program (UPWP) describes the transportation planning tasks to be performed within the HRTPO study area.", link: "/plan/unified-planning-work-program" },
     {
-        id: 6, title: "CMP", year: "2025,2034", mainTitle: "Congestion Management Process (CMP)", des: "The Congestion Management Process (CMP) is a systematic approach for managing congestion throughout the region, providing the safe and effective integrated management and operation of new and existing transportation facilities through the use of demand reduction and operational management strategies.", link: "/plan/transportation-performance-management"
+        id: 6, title: "CMP", year: "2025,2034", mainTitle: "Congestion Management Process (CMP)", des: "The Congestion Management Process (CMP) is a systematic approach for managing congestion throughout the region, providing the safe and effective integrated management and operation of new and existing transportation facilities through the use of demand reduction and operational management strategies.", link: "/plan/congestion-management-process"
     }
 
 ]
