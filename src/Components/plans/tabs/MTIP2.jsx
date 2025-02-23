@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function MTIP2() {
     return (
         <div className='w-full
@@ -63,3 +64,4 @@ function MTIP2() {
 }
 
 export default MTIP2
+
