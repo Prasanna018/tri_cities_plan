@@ -13,6 +13,7 @@ function MTIP() {
     return (
         <div className='p-4 bg-[#1e2a3a]'>
             <div className='py-4'>
+                <h1 className='text-3xl py-4 font-bold'>Metropolitan Transportation Improvement Program</h1>
                 <p className='text-lg'>The MTIP is a 4-year comprehensive list of federal, state, and locally funded transportation
                     projects. All modes of transportation are included in the TIP. This includes transit, roadways,
                     bridges, rail, bicycle facilities, pedestrian provisions, and enhancement projects like landscaping
