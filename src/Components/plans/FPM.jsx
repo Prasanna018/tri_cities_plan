@@ -8,7 +8,7 @@ const tablinks = [
     { id: 2, name: "Infrastructure", path: "Infrastructure" },
     { id: 3, name: "Reliability", path: "Reliability" },
     { id: 4, name: "TAM", path: "TAM" },
-    { id: 5, name: "Transit Safety", path: "Transit-Safety" }
+    { id: 5, name: "Transit Safety", path: "Transit-Safe" }
 ]
 function FPM() {
     const location = useLocation();
@@ -79,24 +79,28 @@ function FPM() {
 
             </div>
 
-            <div className='flex justify-around items-center py-8'>
+            <div className=" lg:flex lg:justify-around grid gap-4 grid-cols-2 items-center py-8">
+                {tablinks.map((link) => (
+                    <div className="relative lg:w-[120px]  lg:h-[150px]">
+                        {/* Background shadow effect */}
+                        <div className="absolute top-2 left-2 w-full h-full bg-[#6e6285] rounded-xl"></div>
 
-                {tablinks.map((link, id) => {
-                    return <div
-                        key={link.id}
-                        className='border-2 p-2 rounded-xl'>
-
-                        <Link
-                            className={` ${location.pathname.includes(link.path) ? "text-blue-500 " : ""}`}
-                            key={link.id}
-                            to={link.path}
-                        >{link.name}</Link>
-
+                        {/* Foreground card */}
+                        <div className="relative border-2 p-4 rounded-xl h-[150px] bg-[#b7d1ea] flex items-center justify-center shadow-lg">
+                            <Link
+                                className={`${location.pathname.includes(link.path) ? "text-blue-500 font-bold" : ""
+                                    }`}
+                                key={link.id}
+                                to={link.path}
+                            >
+                                {link.name}
+                            </Link>
+                        </div>
                     </div>
-
-                })}
-
+                ))}
             </div>
+
+
 
             <div className='py-6'>
 

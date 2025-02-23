@@ -19,13 +19,13 @@ function Plans() {
             <div className='w-[80vw] flex gap-x-4'>
 
 
-                <div className='border-2 w-12/3 rounded-sm'>
+                <div className='border-2 lg:w-12/3 w-full rounded-sm'>
 
                     <Outlet></Outlet>
 
                 </div>
 
-                <div className='md:block hidden w-full sticky top-30 border-2 h-fit border-red-20 rounded-xl '>
+                <div className='  lg:block hidden w-full sticky top-30 border-2 h-fit border-red-20 rounded-xl '>
                     <div className='p-4'>
 
                         <span className='text-2xl font-bold'>Plan</span>
