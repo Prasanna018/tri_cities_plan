@@ -7,7 +7,7 @@ function MTIP3() {
             <div>
                 <h1 className='text-2xl font-semibold'>Revisions</h1>
                 <div className='py-4'>
-                    <span> {" "}<a
+                    <span>•  {" "}<a
                         target='_blank'
                         href='https://nmcdn.io/e186d21f8c7946a19faed23c3da2f0da/8bfec28a290449a7b10eb1fee3a0e264/files/CAMPO_TIP_2024_2033_20241028.pdf'
 
@@ -44,7 +44,7 @@ function MTIP3() {
             <div>
                 <h1 className='text-2xl font-semibold'>Adopted MTIP</h1>
                 <div className='py-4 flex flex-col gap-y-3'>
-                    <span> {" "}
+                    <span>• {" "}
 
                         <a
                             href='https://craterpdc.org/DocumentLibrary/Transportation/Plan2045Documents/TCAMPO2045_LRTP_FY21-24TIP_RegionalConformityAssessment.pdf'
