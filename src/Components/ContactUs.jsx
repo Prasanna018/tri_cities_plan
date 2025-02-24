@@ -2,16 +2,16 @@ import React from 'react'
 
 function ContactUs() {
     return (
-        <div className='p-2 space-y-4 bg-[#1e2a3a]
+        <div className='p-2  bg-[#1e2a3a]
         '>
-            <div>
+            <div className='py-4'>
                 <span className='font-bold text-3xl'>Contact Us	</span>
             </div>
 
-            <div className='pt-6'>
+            <div className=''>
 
-                <span className='text-xl pt-4 underline'>Tri-Cities Area MPO</span>
-                <p className='text-lg pt-4 pl-2 text-slate-300'>
+                <span className='text-xl  underline'>Tri-Cities Area MPO</span>
+                <p className='text-lg pt-4 pl-2 text-white'>
                     1964 Wakefield Street
                     <br></br>
                     P.O. Box 1808

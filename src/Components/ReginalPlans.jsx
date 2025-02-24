@@ -2,9 +2,9 @@ import React from 'react'
 
 function ReginalPlans() {
     return (
-        <div className='p-4 bg-[#1e2a3a]'>
-            <div>
-                <h1 className='text-3xl font-bold py-4'>
+        <div className='p-2 bg-[#1e2a3a]'>
+            <div className='py-4'>
+                <h1 className='text-3xl font-bold '>
                     Regional Plans
 
                 </h1>
