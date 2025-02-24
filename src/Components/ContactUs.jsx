@@ -9,9 +9,7 @@ function ContactUs() {
             </div>
 
             <div className='pt-6'>
-                <h1 className='text-2xl pb-4'>
-                    Address
-                </h1>
+
                 <span className='text-xl pt-4 underline'>Tri-Cities Area MPO</span>
                 <p className='text-lg pt-4 pl-2 text-slate-300'>
                     1964 Wakefield Street

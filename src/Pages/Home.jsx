@@ -44,7 +44,7 @@ function Home() {
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-x-22 gap-y-20 py-20 w-full">
 
                     {boxes.map((box) => (
-                        <div key={box.id} className="relative w-72 p-6 bg-[#bde0a4] text-center ">
+                        <div key={box.id} className="relative w-80 h-110 p-6 bg-[#bde0a4] text-center ">
                             {/* Top Label */}
                             <div className="absolute -top-5 left-1/2 -translate-x-1/2 text-2xl  bg-[#1e6579] text-white px-4 py-1  font-semibold">
                                 <span className='text-xl p-10 relative bottom-1'>

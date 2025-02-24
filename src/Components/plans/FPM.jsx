@@ -79,14 +79,14 @@ function FPM() {
 
             </div>
 
-            <div className=" lg:flex lg:justify-around grid gap-4 grid-cols-2 items-center py-8">
+            <div className=" lg:flex lg:justify-center gap-x-10 grid  grid-cols-2 items-center py-8">
                 {tablinks.map((link) => (
-                    <div className="relative lg:w-[120px]  lg:h-[150px]">
+                    <button className="relative lg:w-[110px]   lg:h-[60px]">
                         {/* Background shadow effect */}
                         <div className="absolute top-2 left-2 w-full h-full bg-[#6e6285] rounded-xl"></div>
 
                         {/* Foreground card */}
-                        <div className="relative border-2 p-4 rounded-xl h-[150px] bg-[#b7d1ea] flex items-center justify-center shadow-lg">
+                        <div className="relative border-2 p-4 rounded-xl h-[60px] bg-[#b7d1ea] flex items-center justify-center shadow-lg">
                             <Link
                                 className={`${location.pathname.includes(link.path) ? "text-blue-500 font-bold" : ""
                                     }`}
@@ -96,7 +96,7 @@ function FPM() {
                                 {link.name}
                             </Link>
                         </div>
-                    </div>
+                    </button>
                 ))}
             </div>
 

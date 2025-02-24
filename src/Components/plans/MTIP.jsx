@@ -27,16 +27,16 @@ function MTIP() {
             </div>
 
 
-            <div className='flex justify-around items-center py-8'>
+            <div className='flex justify-center gap-x-10 items-center py-8'>
 
                 {tablinks.map((link, id) => {
 
-                    return <div className="relative  h-[150px]">
+                    return <div className="relative  h-[60px]">
                         {/* Background shadow effect */}
                         <div className="absolute top-2 left-2 w-full h-full bg-[#6e6285] rounded-xl"></div>
 
                         {/* Foreground card */}
-                        <div className="relative border-2 p-4 rounded-xl h-[150px] bg-[#b7d1ea] flex items-center justify-center shadow-lg">
+                        <div className="relative border-2 p-4 rounded-xl h-[60px] bg-[#b7d1ea] flex items-center justify-center shadow-lg">
                             <Link
                                 className={`${location.pathname.includes(link.path) ? "text-blue-500 font-bold" : ""
                                     }`}

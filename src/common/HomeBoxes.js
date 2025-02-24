@@ -3,7 +3,7 @@ import links from './NavLinks'
 
 export const boxes = [
     {
-        id: 1, title: "LRTP", year: "2045", mainTitle: "Long Range Transportation Plan", des: "The LRTP provides a common vision for the community’s future transportation needs and guides the investment of public funds in transportation facilities, addressing a timeline of 20 or more years.",
+        id: 1, title: "MTP", year: "2045", mainTitle: "Long Range Transportation Plan", des: "The LRTP provides a common vision for the community’s future transportation needs and guides the investment of public funds in transportation facilities, addressing a timeline of 20 or more years.",
         link: "/plan/metropolitan-transportation-plans"
     },
     {
@@ -12,7 +12,7 @@ export const boxes = [
     }
     ,
     {
-        id: 3, title: "LOPP", year: "2030", mainTitle: "Prioritized Project List", des: "The List of Prioritized Project (LOPP) contains a list of unfunded highway, transit, bicycle, and pedestrian projects that have been prioritized for funding. The list is updated annually, allowing local governments to plan for the funding and implementation of projects in their respective communities.", link: "/plan/listing-of-obligated-projects"
+        id: 3, title: "LOPP", year: "2030", mainTitle: "Listing of Obligated Projects", des: "As required by the federally mandated metropolitan transportation planning process, the Metropolitan Planning Organization (MPO) must release a Listing of Obligated Projects (LOP) detailing the transportation projects that received federal funding in the previous program year. This requirement aims to enhance transparency in federal transportation spending within a metropolitan planning area (MPA), providing state and local officials, as well as the public, with greater insight into these investments.", link: "/plan/listing-of-obligated-projects"
     },
     { id: 4, title: "PPP", year: "2023-2026", mainTitle: "Public Participation Plan", des: "The Public Participation Plan (PPP) provides guidelines used by the HRTPO to inform and gather input from residents, communities, and interest groups throughout the six counties in order to expand the information available for planning.", link: "/plan/public-participation-plan" },
 
