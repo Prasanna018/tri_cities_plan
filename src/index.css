@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 
-/* body {
-  background-color: #16172b;
-} */
+body {
+  background-color: #f6f6f6;
+}
 
 a {
   font-weight: bold;

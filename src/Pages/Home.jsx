@@ -14,7 +14,7 @@ function Home() {
 
 
     return (
-        <div className='pt-8 flex bg-white justify-center'>
+        <div className='pt-8 flex bg-[#f6f6f6] justify-center'>
 
             <div className='w-3/4'>
 
@@ -25,7 +25,7 @@ function Home() {
 
                         src={logo}
                     ></img>
-                    <span className='lg:text-3xl md:text-2xl text-2xl lg:w-[400px]  font-bold'>
+                    <span className='lg:text-3xl md:text-2xl text-2xl lg:w-[400px] text-black  font-bold'>
                         Tri-Cities Area Metropolitan Planning Organization (TCAMPO)
                     </span>
                 </div>
