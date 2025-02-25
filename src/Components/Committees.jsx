@@ -20,7 +20,7 @@ function Committees() {
             <div className='py-2'>
 
 
-                <div className=''>
+                <div className='pb-2'>
 
                     <span className='text-slate-300 text-xl font-bold'>Policy Committee
                     </span>
