@@ -7,7 +7,7 @@ function CMP() {
             <div className='py-4'>
                 <h1 className='text-3xl font-bold '>Congestion Management Process
                 </h1>
-                <p className=''>
+                <p className='py-2'>
                     Traffic congestion impacts the mobility of people and goods in Southern Virginia, which affects quality of life and economic growth in the region. The TCAMPO maintains the federally required Congestion Management Process (CMP) to improve transportation system reliability, safety, and performance.
                 </p>
 
