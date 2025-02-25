@@ -2,10 +2,10 @@ import React from 'react'
 
 function PPP() {
     return (
-        <div className='p-5 bg-[#1e2a3a]'>
-            <div className='pt-4'>
+        <div className='p-2 bg-[#1e2a3a]'>
+            <div className='py-4'>
                 <h1 className='text-3xl font-bold'>Public Participation Plan</h1>
-                <p className='pt-6  text-lg h-[350px]'>
+                <p className='py-4   h-[350px]'>
 
                     The TCAMPO Public Participation Plan (PPP) describes the strategies that will be used to encourage public participation in the development of the MPO’s various transportation planning documents. The Public Participation Plan outlines the MPO’s commitment to an open and transparent involvement process with the public, local communities, and local, state, and federal agencies to support the regional transportation planning process. The Public Participation Plan ensures everyone is given ample opportunity to access, review, and comment on plans, studies, and other transportation documents as they are being developed.
 

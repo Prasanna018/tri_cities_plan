@@ -2,7 +2,7 @@ import React from 'react'
 
 function ALOP() {
     return (
-        <div className='p-4 bg-[#1e2a3a]'>
+        <div className='p-2 bg-[#1e2a3a]'>
 
             <div className='py-4'>
                 <h1 className='text-3xl font-bold'>Listing of Obligated Projects</h1>

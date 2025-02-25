@@ -15,11 +15,11 @@ function FPM() {
 
 
     return (
-        <div className='p-4 bg-[#1e2a3a]'>
+        <div className='p-2 bg-[#1e2a3a]'>
 
-            <div className='pb-4'>
+            <div className='py-4'>
                 <h1 className='text-3xl font-bold'>Federal Transportation Performance Targets</h1>
-                <p className='pt-6'>The Moving Ahead for Progress in the 21st Century Act (MAP‐21, 2012) established new
+                <p className='py-2'>The Moving Ahead for Progress in the 21st Century Act (MAP‐21, 2012) established new
                     requirements for metropolitan planning organizations (MPOs) to coordinate with transit
                     providers, set performance targets, and integrate those performance targets and performance
                     plans into their planning documents by specified dates. The most recent federal transportation
@@ -42,7 +42,7 @@ function FPM() {
 
 
 
-            <div className='py-6'
+            <div className='py-4'
             >
                 <span className='text-2xl font-bold'>FHWA Performance Measures</span>
 
@@ -54,7 +54,7 @@ function FPM() {
             </div>
 
 
-            <div className='py-6'
+            <div className='py-4'
             >
                 <span className='text-2xl font-bold'>FTA Performance Measures</span>
 
@@ -79,24 +79,25 @@ function FPM() {
 
             </div>
 
-            <div className=" lg:flex lg:justify-center gap-x-10 grid  grid-cols-2 items-center py-8">
+            <div className=" lg:flex lg:justify-start gap-x-10 grid  grid-cols-2 items-center py-8">
                 {tablinks.map((link) => (
-                    <button className="relative lg:w-[110px]   lg:h-[60px]">
+                    <div className="relative h-[60px]">
                         {/* Background shadow effect */}
                         <div className="absolute top-2 left-2 w-full h-full bg-[#6e6285] rounded-xl"></div>
 
-                        {/* Foreground card */}
-                        <div className="relative border-2 p-4 rounded-xl h-[60px] bg-[#b7d1ea] flex items-center justify-center shadow-lg">
-                            <Link
-                                className={`${location.pathname.includes(link.path) ? "text-blue-500 font-bold" : ""
-                                    }`}
-                                key={link.id}
-                                to={link.path}
-                            >
+                        {/* Foreground card wrapped in Link */}
+                        <Link
+                            to={link.path}
+                            key={link.id}
+                            className={`relative border-2 p-4 rounded-xl h-[60px] flex items-center justify-center shadow-lg 
+                                            ${location.pathname.includes(link.path) ? "bg-green-600 z-50 " : "bg-[#b7d1ea]"}`}
+                        >
+                            <span className={location.pathname.includes(link.path) ? "text-white font-bold" : ""}>
                                 {link.name}
-                            </Link>
-                        </div>
-                    </button>
+                            </span>
+                        </Link>
+                    </div>
+
                 ))}
             </div>
 

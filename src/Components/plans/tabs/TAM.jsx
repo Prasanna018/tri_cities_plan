@@ -23,32 +23,33 @@ const data = [
 
 function TAM() {
     return (
-        <div className='w-full'>
+        <div className='w-full p-2'>
             <div className='py-4'>
                 <h1 className='text-2xl font-bold'> Transit Asset Managements (TAM) Targets</h1>
 
             </div>
+            {/*  */}
 
-            <div className="w-full max-w-4xl py-6">
+            <div className="w-full max-w-4xl py-4">
                 <table className="w-full border-collapse">
                     <thead>
                         <tr>
-                            <th className="border-2 border-white bg-slate-400 p-2 text-left">
+                            <th className="border border-white bg-slate-400 p-2 text-left">
                                 Reporting Entity
                             </th>
-                            <th className="border-2 border-white bg-slate-400 p-2">
+                            <th className="border border-white bg-slate-400 p-2">
                                 Rolling Stock
                                 <div className="text-sm font-normal">
                                     % of revenue vehicles &gt; ULB
                                 </div>
                             </th>
-                            <th className="border-2 border-white bg-slate-400 p-2">
+                            <th className="border border-white bg-slate-400 p-2">
                                 Equipment
                                 <div className="text-sm font-normal">
                                     % of non-revenue vehicles &gt; ULB
                                 </div>
                             </th>
-                            <th className="border-2 border-white bg-slate-400 p-2">
+                            <th className="border border-white bg-slate-400 p-2">
                                 Facilities
                                 <div className="text-sm font-normal">
                                     % of facilities &lt; TERM scale 3
