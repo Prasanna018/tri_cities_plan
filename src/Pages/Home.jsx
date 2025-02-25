@@ -14,7 +14,7 @@ function Home() {
 
 
     return (
-        <div className='pt-8 flex justify-center'>
+        <div className='pt-8 flex bg-white justify-center'>
 
             <div className='w-3/4'>
 
@@ -95,7 +95,7 @@ function Home() {
 
 
                 <div className='pb-4 pt-10 flex flex-col'>
-                    <h1 className='text-gray-200 text-4xl pb-6'>Upcoming Events</h1>
+                    <h1 className='text-black text-4xl pb-6'>Upcoming Events</h1>
 
                     <hr></hr>
 
@@ -110,13 +110,13 @@ function Home() {
                                         key={index}>
                                         <a className='text-blue-600 text-sm py-2'>{event.link}</a>
                                         <div className='flex py-2 items-center gap-x-4'>
-                                            <CalendarDays size={30}></CalendarDays>
-                                            <p>{event.date}</p>
+                                            <CalendarDays color='black' size={30}></CalendarDays>
+                                            <p className='text-black'>{event.date}</p>
                                         </div>
 
                                         <div className='flex py-2 items-center gap-x-4'>
-                                            <MapPin size={30}></MapPin>
-                                            <span>{event.location}</span>
+                                            <MapPin color='black' size={30}></MapPin>
+                                            <span className='text-black'>{event.location}</span>
                                         </div>
 
 

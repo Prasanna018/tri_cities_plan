@@ -21,7 +21,7 @@ function ProgramAndStudies() {
                 </div>
 
 
-                <div className='lg:block hidden w-full sticky top-32 border-2 h-fit border-red-20 rounded-xl'>
+                <div className='lg:block text-black hidden w-full sticky top-32 border-2 h-fit border-red-20 rounded-xl'>
 
                     <div className='p-4'>
                         <span className='text-2xl font-bold'>Program & Studies</span>
