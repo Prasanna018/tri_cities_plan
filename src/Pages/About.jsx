@@ -19,7 +19,7 @@ function About() {
             <div className='w-[80vw] flex gap-x-4'>
 
 
-                <div className='border-2 w-full lg:w-12/3 rounded-sm'>
+                <div className=' w-full lg:w-12/3 rounded-sm'>
 
                     <Outlet></Outlet>
 

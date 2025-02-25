@@ -10,7 +10,7 @@ function Committees() {
     const [isOpen4, setIsOpen4] = useState(false)
 
     return (
-        <div className='p-2 bg-[#1e2a3a]
+        <div className='p-2 bg-[#f6f6f6] text-black
         '>
 
             <div className='py-4'>
@@ -22,12 +22,12 @@ function Committees() {
 
                 <div className='pb-2'>
 
-                    <span className='text-slate-300 text-xl font-bold'>Policy Committee
+                    <span className='text-black text-xl font-bold'>Policy Committee
                     </span>
 
                 </div>
 
-                <div className='w-full flex md:flex-row flex-col gap-x-8 border-2 border-white p-4 rounded-2xl'>
+                <div className='w-full flex md:flex-row flex-col gap-x-8 border-2 border-black p-4 rounded-2xl'>
 
                     <div className='flex flex-col space-y-4'>
                         <button className='md:w-[150px] p-2 w-full  bg-orange-700 cursor-pointer rounded-2xl hover:bg-orange-900 duration-300'
@@ -77,12 +77,12 @@ function Committees() {
 
                 <div className='py-2'>
 
-                    <span className='text-slate-300 text-xl font-bold'>Technical Advisory Committee
+                    <span className='text-black text-xl font-bold'>Technical Advisory Committee
                     </span>
 
                 </div>
 
-                <div className='w-full flex md:flex-row flex-col gap-x-8 border-2 border-white p-4 rounded-2xl'>
+                <div className='w-full flex md:flex-row flex-col gap-x-8 border-2 border-black p-4 rounded-2xl'>
 
                     <div className='flex flex-col space-y-4'>
                         <button className='md:w-[150px] p-2 w-full cursor-pointer bg-orange-700 hover:bg-orange-900 duration-300 rounded-2xl'

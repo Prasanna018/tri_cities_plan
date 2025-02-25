@@ -21,7 +21,7 @@ function Home() {
                 {/* home logo */}
                 <div className='w-full flex items-center md:justify-start justify-center gap-x-4'>
                     <img
-                        className=' h-[100px]'
+                        className=' h-[100px] rounded-xl'
 
                         src={logo}
                     ></img>
