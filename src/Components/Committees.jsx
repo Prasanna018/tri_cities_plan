@@ -10,17 +10,17 @@ function Committees() {
     const [isOpen4, setIsOpen4] = useState(false)
 
     return (
-        <div className='p-2 space-y-4 bg-[#1e2a3a]
+        <div className='p-2 bg-[#1e2a3a]
         '>
 
-            <div>
+            <div className='py-4'>
                 <span className='font-bold text-3xl'>Committees</span>
             </div>
 
-            <div className='p-6'>
+            <div className='py-2'>
 
 
-                <div className='pt-6 pb-6'>
+                <div className=''>
 
                     <span className='text-slate-300 text-xl font-bold'>Policy Committee
                     </span>
@@ -71,11 +71,11 @@ function Committees() {
             {/* ----------------------- */}
 
 
-            <div className='p-6'>
+            <div className=''>
 
 
 
-                <div className='pt-6 pb-6'>
+                <div className='py-2'>
 
                     <span className='text-slate-300 text-xl font-bold'>Technical Advisory Committee
                     </span>
