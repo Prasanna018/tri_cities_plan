@@ -90,7 +90,7 @@ function FPM() {
                             to={link.path}
                             key={link.id}
                             className={`relative border-2 p-4 rounded-xl h-[60px] flex items-center justify-center shadow-lg 
-                                            ${location.pathname.includes(link.path) ? "bg-green-600 z-50 " : "bg-[#b7d1ea]"}`}
+                                            ${location.pathname.includes(link.path) ? "bg-green-600 z-30 " : "bg-[#b7d1ea]"}`}
                         >
                             <span className={location.pathname.includes(link.path) ? "text-white font-bold" : ""}>
                                 {link.name}

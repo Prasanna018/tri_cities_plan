@@ -39,7 +39,7 @@ function NavBar() {
     }, [isOpen]);
 
     return (
-        <div className='w-full bg-[#172031] bg-opacity-10 backdrop-blur-md border-none h-fit rounded-4xl flex justify-between items-center px-4'>
+        <div className='w-full bg-[#172031] z-50 bg-opacity-10 backdrop-blur-md border-none h-fit rounded-4xl flex justify-between items-center px-4'>
             <div className='p-2'>
                 <Link to='/'>
                     <img className='rounded-xl' height={20} width={100} src={logo} alt="Logo" />
