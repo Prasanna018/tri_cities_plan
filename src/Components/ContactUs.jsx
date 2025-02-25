@@ -11,7 +11,7 @@ function ContactUs() {
             <div className=''>
 
                 <span className='text-xl  underline'>Tri-Cities Area MPO</span>
-                <p className='text-lg pt-4 pl-2 text-white'>
+                <p className=' pt-4 pl-2 text-white'>
                     1964 Wakefield Street
                     <br></br>
                     P.O. Box 1808

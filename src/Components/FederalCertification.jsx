@@ -8,7 +8,7 @@ function FederalCertification() {
             <div className='py-4'>
                 <span className='font-bold text-3xl'>Federal Certification</span>
             </div>
-            <p className='text-lg text-white '>
+            <p className=' text-white '>
 
                 Every four years the Federal Highway Administration and the Federal Transit Administration review the planning processes of TCAMPO to ensure consistency with federal requirements.  During this certification review, planning processes, public outreach and other items are reviewed.
             </p>
