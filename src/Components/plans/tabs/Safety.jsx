@@ -10,7 +10,7 @@ const data = [
 
 function Safety() {
     return (
-        <div className="w-full">
+        <div className="w-full ">
             <div className="py-4">
                 <h1 className="text-2xl font-bold">Transportation Safety</h1>
                 <p className="py-2 text-start">
@@ -20,7 +20,7 @@ function Safety() {
                 </p>
             </div>
 
-            <div className="w-full max-w-3xl mx-auto bg-transparent shadow-lg py-4">
+            <div className="w-full max-w-3xl bg-transparent shadow-lg py-4">
                 <div className="overflow-x-auto">
                     <table className="w-full border border-white border-collapse">
                         <thead>
