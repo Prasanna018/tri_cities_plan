@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link, Outlet, useLocation } from 'react-router-dom'
+
+// left side options links are here
 const leftlinks = [
     { id: 6.1, name: "Federal Funding Authorizations", path: 'federal-funding-authorizations' },
     { id: 6.2, name: "SMART SCALE", path: "smart-scale" }
@@ -10,6 +12,7 @@ function Funding() {
     return (
         <div className='flex justify-center pt-10 gap-x-6 pb-4 '>
             <div className='w-[80vw] flex gap-x-4'>
+                {/*  */}
                 <div className='lg:w-12/3 w-full rounded-sm'>
 
                     <Outlet></Outlet>

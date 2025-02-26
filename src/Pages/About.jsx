@@ -4,6 +4,9 @@ import { Link, Outlet, useLocation } from 'react-router-dom'
 import Employees from '../Components/Employees'
 
 import { Routes, Route } from 'react-router-dom'
+
+// left side options links are here
+
 const leftlinks = [
     { id: 2.1, name: "Committees", path: "committees" },
     { id: 2.2, name: "Employees", path: "employees" },

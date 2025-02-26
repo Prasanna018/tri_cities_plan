@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link, Outlet, useLocation } from 'react-router-dom'
 
+// left side options links are here
 
 const leftlinks = [
     { id: 5.1, name: "Regional Travel Model", path: "regional-travel-model" },

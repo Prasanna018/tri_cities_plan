@@ -4,7 +4,6 @@ import bg1 from '../assets/bg1.jpg'
 import { CalendarDays } from 'lucide-react';
 import { MapPin } from 'lucide-react';
 import { boxes } from '../common/HomeBoxes'
-import { videos } from '../common/HomeVideos'
 import { Upcoming_Events } from '../common/upcomingEvents';
 import { useNavigate } from 'react-router-dom';
 
@@ -16,6 +15,7 @@ function Home() {
     return (
         <div className='pt-8 flex bg-[#f6f6f6] justify-center'>
 
+
             <div className='w-3/4'>
 
                 {/* home logo */}
@@ -25,6 +25,7 @@ function Home() {
 
                         src={logo}
                     ></img>
+
                     <span className='lg:text-3xl md:text-2xl text-2xl lg:w-[400px] text-black  font-bold'>
                         Tri-Cities Area Metropolitan Planning Organization (TCAMPO)
                     </span>
@@ -62,9 +63,7 @@ function Home() {
                             {/* Main Content */}
                             {/* <p className="text-gray-700 text-sm mt-6">{box.year}</p> */}
                             <h2 className="text-2xl font-bold text-[#609293] leading-tight text-start h-[90px]">
-                                {/* {box.mainTitle?.split(" ").map((word, index) => (
-                                    <span key={index}>{word} <br /></span>
-                                ))} */}
+
                                 {box.mainTitle}
                             </h2>
                             <p className="text-gray-700 text-start text-sm mt-2 h-[220px]">

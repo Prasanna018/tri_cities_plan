@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link, Outlet, useLocation } from 'react-router-dom'
 
+// left side options links are here
+
 const leftlinks = [
     { id: 4.1, name: "Metropolitan Transportation Plans (MTP)", path: "metropolitan-transportation-plans" },
     { id: 4.2, name: "Metropolitan Transportation Improvement Programs (MTIP)", path: "metropolitan-transportation-improvement-programs" },
@@ -10,6 +12,8 @@ const leftlinks = [
     { id: 4.6, name: "Transportation Performance Management", path: "transportation-performance-management" },
     { id: 4.7, name: "Listing of Obligated Projects", path: "listing-of-obligated-projects" }
 ]
+
+
 function Plans() {
     const location = useLocation();
     return (
