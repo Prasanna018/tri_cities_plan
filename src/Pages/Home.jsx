@@ -97,7 +97,7 @@ function Home() {
                 <div className='pb-4 pt-10 flex flex-col'>
                     <h1 className='text-black text-4xl pb-6'>Upcoming Events</h1>
 
-                    <hr></hr>
+                    <hr className='border border-black'></hr>
 
 
                     <div className='pt-8'>
