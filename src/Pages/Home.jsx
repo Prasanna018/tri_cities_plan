@@ -100,6 +100,7 @@ function Home() {
                     <hr className='border border-black'></hr>
 
 
+
                     <div className='pt-8'>
                         {
                             Upcoming_Events.map((event, index) => {
