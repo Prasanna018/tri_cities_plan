@@ -2,7 +2,7 @@ import React from 'react'
 
 function UPWP() {
     return (
-        <div className='p-4 bg-[#1e2a3a]'>
+        <div className='p-4 bg-[#f6f6f6] text-black'>
             <div>
                 <h1 className='text-3xl font-bold'>Unified Planning Work Program</h1>
                 <p className='pt-4'>Unified Planning Work Program (UPWP) is a federally-required document that outlines the TCAMPO’s annual budget, planning priorities, and proposed work for each fiscal year. For all budgeted projects, the UPWP describes the following:</p>

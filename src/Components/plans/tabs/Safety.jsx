@@ -22,13 +22,13 @@ function Safety() {
 
             <div className="w-full max-w-3xl bg-transparent shadow-lg py-4">
                 <div className="overflow-x-auto">
-                    <table className="w-full border border-white border-collapse">
+                    <table className="w-full border border-black border-collapse">
                         <thead>
-                            <tr className="bg-slate-400 text-white">
-                                <th className="p-4 text-left border border-white w-2/3">
+                            <tr className="bg-slate-400 text-black">
+                                <th className="p-4 text-left border border-black w-2/3">
                                     Performance Measure
                                 </th>
-                                <th className="p-4 text-right border border-white w-1/3">
+                                <th className="p-4 text-right border border-black w-1/3">
                                     5-Yr Rolling Average for 2023
                                 </th>
                             </tr>
@@ -36,10 +36,10 @@ function Safety() {
                         <tbody>
                             {data.map((row, index) => (
                                 <tr key={index} className="bg-transparent">
-                                    <td className="p-4 border border-white text-left">
+                                    <td className="p-4 border border-black text-left">
                                         {row.measure}
                                     </td>
-                                    <td className="p-4 border border-white text-right font-medium">
+                                    <td className="p-4 border border-black text-right font-medium">
                                         {row.average}
                                     </td>
                                 </tr>

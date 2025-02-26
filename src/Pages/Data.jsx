@@ -23,7 +23,7 @@ function Data() {
 
 
 
-                <div className='border-2 lg:w-12/3 w-full rounded-sm'>
+                <div className=' lg:w-12/3 w-full rounded-sm'>
 
                     <Outlet></Outlet>
 

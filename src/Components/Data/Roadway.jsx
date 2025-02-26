@@ -2,7 +2,7 @@ import React from 'react'
 
 function Roadway() {
     return (
-        <div className='p-4 bg-[#1e2a3a]'>
+        <div className='p-4 bg-[#f6f6f6] text-black'>
             <div className='py-4'>
                 <h1 className='font-bold text-3xl py-2'>How roads are classified</h1>
 

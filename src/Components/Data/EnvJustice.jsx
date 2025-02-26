@@ -2,7 +2,7 @@ import React from 'react'
 
 function EnvJustice() {
     return (
-        <div className='p-4 bg-[#1e2a3a]'>
+        <div className='p-4 bg-[##f6f6f6] text-black'>
             <div>
                 <h1 className='py-2 text-3xl font-bold'>Environmental Justice</h1>
                 <span className='font-semibold py-2 text-xl'>What does Environmental Justice mean?</span>

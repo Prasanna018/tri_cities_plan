@@ -34,22 +34,22 @@ function TAM() {
                 <table className="w-full border-collapse">
                     <thead>
                         <tr>
-                            <th className="border border-white bg-slate-400 p-2 text-left">
+                            <th className="border border-black bg-slate-400 p-2 text-left">
                                 Reporting Entity
                             </th>
-                            <th className="border border-white bg-slate-400 p-2">
+                            <th className="border border-black bg-slate-400 p-2">
                                 Rolling Stock
                                 <div className="text-sm font-normal">
                                     % of revenue vehicles &gt; ULB
                                 </div>
                             </th>
-                            <th className="border border-white bg-slate-400 p-2">
+                            <th className="border border-black bg-slate-400 p-2">
                                 Equipment
                                 <div className="text-sm font-normal">
                                     % of non-revenue vehicles &gt; ULB
                                 </div>
                             </th>
-                            <th className="border border-white bg-slate-400 p-2">
+                            <th className="border border-black bg-slate-400 p-2">
                                 Facilities
                                 <div className="text-sm font-normal">
                                     % of facilities &lt; TERM scale 3

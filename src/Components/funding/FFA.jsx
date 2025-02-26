@@ -2,7 +2,7 @@ import React from 'react'
 
 function FFA() {
     return (
-        <div className='p-4 bg-[#1e2a3a]'>
+        <div className='p-4 bg-[#f6f6f6] text-black'>
             <div>
                 <h1 className='text-3xl font-bold'>Federal Funding Authorizations</h1>
                 <p className='py-2'>

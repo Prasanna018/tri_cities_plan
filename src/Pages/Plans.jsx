@@ -19,7 +19,7 @@ function Plans() {
             <div className='w-[80vw] flex gap-x-4'>
 
 
-                <div className='border-2 lg:w-12/3 w-full rounded-sm'>
+                <div className=' lg:w-12/3 w-full rounded-sm'>
 
                     <Outlet></Outlet>
 

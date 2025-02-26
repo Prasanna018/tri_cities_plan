@@ -14,23 +14,23 @@ function Infrastructure() {
                     {/* Header Row */}
                     <thead>
                         <tr>
-                            <th rowSpan={2} className="border border-white bg-slate-400 p-4 text-left w-1/4">
+                            <th rowSpan={2} className="border border-black bg-slate-400 p-4 text-left w-1/4">
                                 Pavement and Bridge Performance Measures
                             </th>
-                            <th colSpan={2} className="border border-white bg-slate-400 p-4 text-center w-1/2">
+                            <th colSpan={2} className="border border-black bg-slate-400 p-4 text-center w-1/2">
                                 2-Year NHS Targets<br />
                                 (1/1/2022 - 12/31/2023)
                             </th>
-                            <th colSpan={2} className="border border-white bg-slate-400 p-4 text-center">
+                            <th colSpan={2} className="border border-black bg-slate-400 p-4 text-center">
                                 4-Year NHS Targets<br />
                                 (1/1/2022 - 12/31/2025)
                             </th>
                         </tr>
                         <tr>
-                            <th className="border border-white bg-slate-400 p-4 text-center">Good</th>
-                            <th className="border border-white bg-slate-400 p-4 text-center">Poor</th>
-                            <th className="border border-white bg-slate-400 p-4 text-center">Good</th>
-                            <th className="border border-white bg-slate-400 p-4 text-center">Poor</th>
+                            <th className="border border-black bg-slate-400 p-4 text-center">Good</th>
+                            <th className="border border-black bg-slate-400 p-4 text-center">Poor</th>
+                            <th className="border border-black bg-slate-400 p-4 text-center">Good</th>
+                            <th className="border border-black bg-slate-400 p-4 text-center">Poor</th>
                         </tr>
                     </thead>
 
@@ -38,32 +38,32 @@ function Infrastructure() {
                     <tbody>
                         {/* Pavement Section */}
                         <tr>
-                            <td colSpan={5} className="border border-white p-4 font-medium">
+                            <td colSpan={5} className="border border-black p-4 font-medium">
                                 Pavement on the NHS
                             </td>
                         </tr>
                         <tr>
-                            <td className="border border-white p-4 pl-8">Interstate</td>
-                            <td className="border border-white p-4 text-center">47.2%</td>
-                            <td className="border border-white p-4 text-center">1.9%</td>
-                            <td className="border border-white p-4 text-center">49.2%</td>
-                            <td className="border border-white p-4 text-center">1.7%</td>
+                            <td className="border border-black p-4 pl-8">Interstate</td>
+                            <td className="border border-black p-4 text-center">47.2%</td>
+                            <td className="border border-black p-4 text-center">1.9%</td>
+                            <td className="border border-black p-4 text-center">49.2%</td>
+                            <td className="border border-black p-4 text-center">1.7%</td>
                         </tr>
                         <tr>
-                            <td className="border border-white p-4 pl-8">Non-Interstate</td>
-                            <td className="border border-white p-4 text-center">21.7%</td>
-                            <td className="border border-white p-4 text-center">10.5%</td>
-                            <td className="border border-white p-4 text-center">28.2%</td>
-                            <td className="border border-white p-4 text-center">9.0%</td>
+                            <td className="border border-black p-4 pl-8">Non-Interstate</td>
+                            <td className="border border-black p-4 text-center">21.7%</td>
+                            <td className="border border-black p-4 text-center">10.5%</td>
+                            <td className="border border-black p-4 text-center">28.2%</td>
+                            <td className="border border-black p-4 text-center">9.0%</td>
                         </tr>
 
                         {/* Bridges Section */}
                         <tr>
-                            <td className="border border-white p-4 font-medium">Bridges on the NHS</td>
-                            <td className="border border-white p-4 text-center">49.1%</td>
-                            <td className="border border-white p-4 text-center">5.9%</td>
-                            <td className="border border-white p-4 text-center">47.3%</td>
-                            <td className="border border-white p-4 text-center">4.4%</td>
+                            <td className="border border-black p-4 font-medium">Bridges on the NHS</td>
+                            <td className="border border-black p-4 text-center">49.1%</td>
+                            <td className="border border-black p-4 text-center">5.9%</td>
+                            <td className="border border-black p-4 text-center">47.3%</td>
+                            <td className="border border-black p-4 text-center">4.4%</td>
                         </tr>
                     </tbody>
                 </table>

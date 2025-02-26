@@ -14,7 +14,7 @@ function ProgramAndStudies() {
     return (
         <div className='flex justify-center pt-10 gap-x-6 pb-4 '>
             <div className='w-[80vw] flex gap-x-4'>
-                <div className='border-2 lg:w-12/3  w-full rounded-sm'>
+                <div className='lg:w-12/3  w-full rounded-sm'>
 
                     <Outlet></Outlet>
 

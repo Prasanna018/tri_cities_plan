@@ -2,7 +2,7 @@ import React from 'react'
 
 function Reports() {
     return (
-        <div className='p-2 bg-[#1e2a3a]'>
+        <div className='p-2 bg-[#f6f6f6] text-black'>
             <div className='py-0'>
                 <h1 className='text-3xl font-bold '>
                     Reports

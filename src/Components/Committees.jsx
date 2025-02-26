@@ -82,6 +82,7 @@ function Committees() {
 
                 </div>
 
+
                 <div className='w-full flex md:flex-row flex-col gap-x-8 border-2 border-black p-4 rounded-2xl'>
 
                     <div className='flex flex-col space-y-4'>

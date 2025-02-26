@@ -12,7 +12,7 @@ function MTIP() {
     const location = useLocation();
 
     return (
-        <div className='p-2 bg-[#1e2a3a]'>
+        <div className='p-2 bg-[#f6f6f6] text-black'>
             <div className='py-4'>
                 <h1 className='text-3xl py-4 font-bold'>Metropolitan Transportation Improvement Program</h1>
                 <p className=''>The MTIP is a 4-year comprehensive list of federal, state, and locally funded transportation
@@ -44,7 +44,7 @@ function MTIP() {
                             className={`relative border-2 p-4 rounded-xl h-[60px] flex items-center justify-center shadow-lg 
                         ${location.pathname.includes(link.path) ? "bg-green-600 z-30 " : "bg-[#b7d1ea]"}`}
                         >
-                            <span className={location.pathname.includes(link.path) ? "text-white font-bold" : ""}>
+                            <span className={location.pathname.includes(link.path) ? "text-black font-bold" : ""}>
                                 {link.name}
                             </span>
                         </Link>
