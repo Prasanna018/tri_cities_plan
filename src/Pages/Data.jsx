@@ -13,6 +13,7 @@ const leftlinks = [
         id: 5.4, name: "Transportation Dashboard", path: "transportation-dashboard"
     }
 ]
+
 function Data() {
 
     const location = useLocation();

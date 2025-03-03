@@ -14,7 +14,7 @@ export const boxes = [
     {
         id: 3, title: "LOP", year: "2030", mainTitle: "Listing of  Projects", des: "As required by the federally mandated metropolitan transportation planning process, the Metropolitan Planning Organization (MPO) must release a Listing of Obligated Projects (LOP) detailing the transportation projects that received federal funding in the previous program year. This requirement aims to enhance transparency in federal transportation spending within a metropolitan planning area (MPA), providing state and local officials, as well as the public, with greater insight into these investments.", link: "/plan/listing-of-obligated-projects"
     },
-    { id: 4, title: "PPP", year: "2023-2026", mainTitle: "Public Participation Plan", des: "The Public Participation Plan (PPP) provides guidelines used by the HRTPO to inform and gather input from residents, communities, and interest groups throughout the six counties in order to expand the information available for planning.", link: "/plan/public-participation-plan" },
+    { id: 4, title: "PPP", year: "2023-2026", mainTitle: "Public Participation Plan", des: "The Public Participation Plan (PPP) provides guidelines used by the MPO to inform and gather input from residents, communities, and interest groups throughout the six counties in order to expand the information available for planning.", link: "/plan/public-participation-plan" },
 
     { id: 5, title: "UPWP", year: "2024/25 - 2025/26", mainTitle: "United Planning Work Program", des: "This Unified Planning Work Program (UPWP) describes the transportation planning tasks to be performed within the HRTPO study area.", link: "/plan/unified-planning-work-program" },
     {

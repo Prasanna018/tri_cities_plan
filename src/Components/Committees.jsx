@@ -1,8 +1,9 @@
 import React, { useState, useTransition } from 'react'
-import { members } from '../common/PolicyMembers'
+import { members, Technical_Member } from '../common/PolicyMembers'
 import { Policy_Committee_Meetings_Past } from '../common/CommitteePopup';
 import { Technical_Meeting_past } from '../common/CommitteePopup';
 import { Truck } from 'lucide-react';
+
 function Committees() {
     const [isOpen1, setIsOpen1] = useState(false);
     const [isOpen2, setIsOpen2] = useState(false);
@@ -45,7 +46,7 @@ function Committees() {
 
                     </div>
 
-                    <div className='pt-2'>
+                    <div className='pt-2 '>
                         <span className='text-xl py-4'>Members</span>
                         <div className='grid lg:grid-cols-5  md:grid-cols-4 grid-cols-3 gap-2'>
                             {members.map((member, index) => {
@@ -104,7 +105,7 @@ function Committees() {
                     <div className='pt-2'>
                         <span className='text-xl py-4'>Members</span>
                         <div className='grid lg:grid-cols-5 md:grid-cols-4 grid-cols-3 gap-2'>
-                            {members.map((member, index) => {
+                            {Technical_Member.map((member, index) => {
                                 return (<div key={member.id}>
                                     <span>
                                         {member.name}

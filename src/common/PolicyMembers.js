@@ -17,6 +17,39 @@ export const members = [
 ]
 
 
+export const Technical_Member = [
+    { id: 1, name: "Naomi Siodmok(Chair)" },
+    { id: 2, name: "Robert Baldwin(Vice - Chair)" },
+    { id: 3, name: "Zak Mumuni(Secretary)" },
+    { id: 4, name: 'Mark Bassett' },
+    { id: 5, name: "Marshall Hartless" },
+    { id: 6, name: "Nicole Hentrup" },
+    { id: 7, name: 'Matt Ryan' },
+    { id: 8, name: 'Wood Hudson' },
+    { id: 9, name: 'Todd Scheid' },
+    { id: 10, name: "Brigitte Carter" },
+    { id: 11, name: "Steven Minor" }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
