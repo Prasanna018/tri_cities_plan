@@ -32,7 +32,7 @@ function Plans() {
                 <div className=' text-black lg:block hidden w-full sticky top-30 border-2 h-fit border-red-20 rounded-xl '>
                     <div className='p-4'>
 
-                        <span className='text-2xl font-bold'>Plan</span>
+                        <span className='text-2xl font-bold'>Plans</span>
                         {leftlinks.map(({ id, name, path }) => (
                             <div key={id}>
                                 <Link

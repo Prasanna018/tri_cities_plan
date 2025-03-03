@@ -12,7 +12,7 @@ const links = [
     },
     {
         id: 3,
-        name: "Program & Studies",
+        name: "Programs & Studies",
         path: "/program-studies",
         subRoutes: [
             // { id: 3.1, name: "Comprehensive Plans", path: "/program-studies/comprehensive-plans" },
@@ -23,7 +23,7 @@ const links = [
         ]
     },
     {
-        id: 4, name: "Plan", path: "/plan",
+        id: 4, name: "Plans", path: "/plan",
         subRoutes: [
             { id: 4.1, name: "Metropolitan Transportation Plans (MTP)", path: "/plan/metropolitan-transportation-plans" },
             { id: 4.2, name: "Metropolitan Transportation Improvement Programs (MTIP)", path: "/plan/metropolitan-transportation-improvement-programs" },
