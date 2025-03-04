@@ -42,6 +42,7 @@ import Reliability from "./Components/plans/tabs/Reliability";
 import TAM from "./Components/plans/tabs/TAM";
 import Transit_Safety from "./Components/plans/tabs/Transit_Safety";
 import Title from "./Components/plans/Title";
+import MultiModelPlan from "./Components/MultiModelPlan";
 
 function App() {
   return (
@@ -81,6 +82,7 @@ function App() {
               {/* <Route path="small-area-plans" element={<SmallAreaPlans></SmallAreaPlans>}></Route> */}
               <Route path="regional-plans" element={<ReginalPlans></ReginalPlans>}></Route>
               <Route path="reports" element={<Reports></Reports>}></Route>
+              <Route path="multi-modal-plans" element={<MultiModelPlan></MultiModelPlan>}></Route>
 
 
 

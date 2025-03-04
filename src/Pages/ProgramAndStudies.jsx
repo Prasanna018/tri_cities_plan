@@ -9,7 +9,8 @@ const leftlinks = [
     { id: 3.2, name: "Corridor Plans", path: "corridor-plans" },
 
     { id: 3.4, name: "Regional Plans", path: "regional-plans" },
-    { id: 3.5, name: "Reports", path: "reports" }
+    { id: 3.5, name: "Reports", path: "reports" },
+    { id: 3.6, name: " Multi-Modal Plans", path: "multi-modal-plans" }
 ]
 function ProgramAndStudies() {
     const location = useLocation();
