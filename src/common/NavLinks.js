@@ -41,9 +41,9 @@ const links = [
         subRoutes: [
             { id: 5.1, name: "Regional Travel Model", path: "/data/regional-travel-model" },
             { id: 5.2, name: "VDOT Roadway Functional Classification", path: '/data/VDOT-roadway-functional-classification' },
-            {
-                id: 5.3, name: "Environmental Justice", path: "/data/environmental-justice"
-            },
+            // {
+            //     id: 5.3, name: "Environmental Justice", path: "/data/environmental-justice"
+            // },
             {
                 id: 5.4, name: "Transportation Dashboard", path: "/data/transportation-dashboard"
             }

@@ -6,13 +6,12 @@ function ReginalTravelModel() {
             <div>
                 <h1 className='text-3xl font-bold'>Modeling</h1>
                 <p className='py-4'>
-                    For future traffic and land use projections, the NFRMPO uses two separate but related models: the 2010 Base Year Land Use Allocation Model (LUAM) and the 2015 Base Year Regional Travel Demand Model (RTDM). Both models forecast out to 2050 and can provide information for the following years: 2015, 2020, 2025, 2030, 2035, 2040, 2045, and 2050.
+                    The MPO and its stakeholders utilize a Regional Travel Demand Model to project traffic patterns and travel behavior across the region. The model primarily supports the Metropolitan Transportation Plan (MTP) by evaluating proposed roadway and transit projects, assessing potential impacts of development proposals, and aiding in various regional, subarea, and corridor studies. The latest version is calibrated to a 2017 base year, with future year projections extending to 2050. It also includes interim year datasets representing multiple intermediate time horizons.
                 </p>
-                <p className='py-4'>The models were created using local input to estimate future growth in population, employment, travel patterns, and traffic volumes. Local agencies provided current land uses, future land uses, development data, traffic counts, and transportation projects. The models were reviewed by local agencies for each model’s base year and the 2050 forecast year to ensure reasonableness.</p>
-                <p className='py-4'>The 2010 LUAM is built on the UrbanSim platform. The LUAM forecasts the location and timing of development and the resulting employment and household growth at the zonal level. The output information is then incorporated into the 2019 RTDM.</p>
+
             </div>
 
-            <div className='py-4'>
+            {/* <div className='py-4'>
                 <span>The 2019 RTDM uses the four-step model to estimate travel patterns:</span>
 
                 <p className='pl-4 py-4'>
@@ -25,7 +24,7 @@ function ReginalTravelModel() {
                     4. Route assignment details the route traffic will take between zones.
                     <br></br>
                 </p>
-            </div>
+            </div> */}
 
             <div className='py-4 flex flex-col space-y-3'>
                 <h1 className='py-2 text-3xl font-bold'>Model Documentation</h1>

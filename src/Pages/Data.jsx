@@ -6,9 +6,9 @@ import { Link, Outlet, useLocation } from 'react-router-dom'
 const leftlinks = [
     { id: 5.1, name: "Regional Travel Model", path: "regional-travel-model" },
     { id: 5.2, name: "VDOT Roadway Functional Classification", path: 'VDOT-roadway-functional-classification' },
-    {
-        id: 5.3, name: "Environmental Justice", path: "environmental-justice"
-    },
+    // {
+    //     id: 5.3, name: "Environmental Justice", path: "environmental-justice"
+    // },
     {
         id: 5.4, name: "Transportation Dashboard", path: "transportation-dashboard"
     }
