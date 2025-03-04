@@ -41,6 +41,7 @@ import Infrastructure from "./Components/plans/tabs/Infrastructure";
 import Reliability from "./Components/plans/tabs/Reliability";
 import TAM from "./Components/plans/tabs/TAM";
 import Transit_Safety from "./Components/plans/tabs/Transit_Safety";
+import Title from "./Components/plans/Title";
 
 function App() {
   return (
@@ -112,6 +113,7 @@ function App() {
 
               </Route>
               <Route path="listing-of-obligated-projects" element={<ALOP></ALOP>}></Route>
+              <Route path="title-vi" element={<Title></Title>}></Route>
             </Route>
 
             <Route path="/data" element={<Data></Data>}>

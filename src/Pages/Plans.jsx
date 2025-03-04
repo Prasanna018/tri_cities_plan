@@ -11,6 +11,7 @@ const leftlinks = [
     { id: 4.5, name: "Public Participation Plan (PPP)", path: "public-participation-plan" },
     { id: 4.6, name: "Transportation Performance Management", path: "transportation-performance-management" },
     { id: 4.7, name: "Listing of Obligated Projects", path: "listing-of-obligated-projects" }
+    , { id: 4.8, name: "Ttile VI", path: "title-vi" }
 ]
 
 
