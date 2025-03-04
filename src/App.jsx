@@ -122,7 +122,7 @@ function App() {
 
               <Route path="regional-travel-model" element={<ReginalTravelModel></ReginalTravelModel>}></Route>
               <Route path="VDOT-roadway-functional-classification" element={<Roadway></Roadway>}></Route>
-              <Route path="environmental-justice" element={<EnvJustice></EnvJustice>}></Route>
+              {/* <Route path="environmental-justice" element={<EnvJustice></EnvJustice>}></Route> */}
               <Route path="transportation-dashboard" element={<TransportationDash></TransportationDash>}></Route>
             </Route>
 
