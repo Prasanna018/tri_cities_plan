@@ -5,7 +5,7 @@ import { Link, Outlet, useLocation } from 'react-router-dom'
 const leftlinks = [
     { id: 6.1, name: "Regional Surface Transportation Block Grant (RSTBG)", path: 'regional-surface-transportation-block-grant' },
     { id: 6.2, name: "CMAQ Program", path: "CMAQ-program" },
-    { ID: 6.3, name: "TA Set-Aside", path: "ta" }
+    { ID: 6.3, name: "TA Set-Aside", path: "ta-set-aside" }
 ]
 
 function Funding() {

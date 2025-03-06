@@ -130,7 +130,7 @@ function App() {
             <Route path="/funding" element={<Funding></Funding>}>
               <Route path="regional-surface-transportation-block-grant" element={<FFA></FFA>}></Route>
               <Route path="CMAQ-program" element={<Smart></Smart>}></Route>
-              <Route path="ta" element={<TA></TA>}></Route>
+              <Route path="ta-set-aside" element={<TA></TA>}></Route>
             </Route>
 
 
