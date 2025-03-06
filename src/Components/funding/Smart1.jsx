@@ -45,7 +45,7 @@ function Smart1() {
             <div className='py-2 '>
                 <h1 className='text-3xl font-bold'>What is a SMART SCALE "round?"</h1>
                 <p className='py-4'>
-                    A "round" refers to a complete SMART SCALE cycle, with two years betwe
+                    A "round" refers to a complete SMART SCALE cycle, with two years between each cycle. Since SMART SCALE is relatively new, the round numbers are still low. We are currently in round five of the SMART SCALE process.
                 </p>
             </div>
 
