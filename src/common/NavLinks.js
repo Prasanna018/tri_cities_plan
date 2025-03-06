@@ -56,8 +56,9 @@ const links = [
         ,
 
         subRoutes: [
-            { id: 6.1, name: "Federal Funding Authorizations", path: '/funding/federal-funding-authorizations' },
-            { id: 6.2, name: "SMART SCALE", path: "/funding/SMART-SCALE" }
+            { id: 6.1, name: "Regional Surface Transportation Block Grant", path: '/funding/regional-surface-transportation-block-grant' },
+            { id: 6.2, name: "SMART SCALE", path: "/funding/CMAQ-program" },
+            { id: 6.3, name: "TA Set-Aside", path: "ta" }
         ]
     }
 ];

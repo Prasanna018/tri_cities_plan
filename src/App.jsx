@@ -27,7 +27,7 @@ import ALOP from "./Components/plans/ALOP";
 import Data from "./Pages/Data";
 import ReginalTravelModel from "./Components/Data/ReginalTravelModel";
 import Roadway from "./Components/Data/Roadway";
-import EnvJustice from "./Components/Data/EnvJustice";
+// import EnvJustice from "./Components/Data/EnvJustice";
 import TransportationDash from "./Components/Data/TransportationDash";
 import Funding from "./Pages/Funding";
 import FFA from "./Components/funding/FFA";
@@ -43,6 +43,7 @@ import TAM from "./Components/plans/tabs/TAM";
 import Transit_Safety from "./Components/plans/tabs/Transit_Safety";
 import Title from "./Components/plans/Title";
 import MultiModelPlan from "./Components/MultiModelPlan";
+import TA from "./Components/funding/TA";
 
 function App() {
   return (
@@ -127,8 +128,9 @@ function App() {
             </Route>
 
             <Route path="/funding" element={<Funding></Funding>}>
-              <Route path="federal-funding-authorizations" element={<FFA></FFA>}></Route>
-              <Route path="smart-scale" element={<Smart></Smart>}></Route>
+              <Route path="regional-surface-transportation-block-grant" element={<FFA></FFA>}></Route>
+              <Route path="CMAQ-program" element={<Smart></Smart>}></Route>
+              <Route path="ta" element={<TA></TA>}></Route>
             </Route>
 
 

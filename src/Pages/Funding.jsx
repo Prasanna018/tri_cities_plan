@@ -3,8 +3,9 @@ import { Link, Outlet, useLocation } from 'react-router-dom'
 
 // left side options links are here
 const leftlinks = [
-    { id: 6.1, name: "Federal Funding Authorizations", path: 'federal-funding-authorizations' },
-    { id: 6.2, name: "SMART SCALE", path: "smart-scale" }
+    { id: 6.1, name: "Regional Surface Transportation Block Grant (RSTBG)", path: 'regional-surface-transportation-block-grant' },
+    { id: 6.2, name: "CMAQ Program", path: "CMAQ-program" },
+    { ID: 6.3, name: "TA Set-Aside", path: "ta" }
 ]
 
 function Funding() {
@@ -21,7 +22,7 @@ function Funding() {
 
                 <div className='lg:block hidden text-black w-full sticky top-30 border-2 h-fit border-red-20 rounded-xl '>
                     <div className='p-4'>
-                        <span className='text-2xl font-bold'>Data</span>
+                        <span className='text-2xl font-bold'>Funding</span>
                         {leftlinks.map(({ id, name, path }) => (
                             <div key={id}>
                                 <Link
