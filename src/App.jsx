@@ -46,6 +46,11 @@ import MultiModelPlan from "./Components/MultiModelPlan";
 import TA from "./Components/funding/TA";
 import Smart1 from "./Components/funding/Smart1";
 import Round6 from "./Components/funding/tabs/Round6";
+import Round5 from "./Components/funding/tabs/Round5";
+import Round4 from "./Components/funding/tabs/Round4";
+import Round3 from "./Components/funding/tabs/Round3";
+import Round2 from "./Components/funding/tabs/Round2";
+import Round1 from "./Components/funding/tabs/Round1";
 
 function App() {
   return (
@@ -136,6 +141,11 @@ function App() {
               <Route path="SMART-SCALE" element={<Smart1></Smart1>}>
                 <Route index element={<Navigate to="round-6" replace />} />
                 <Route path="round-6" element={<Round6></Round6>}></Route>
+                <Route path="round-5" element={<Round5></Round5>}></Route>
+                <Route path="round-4" element={<Round4></Round4>} ></Route>
+                <Route path="round-3" element={<Round3></Round3>}></Route>
+                <Route path="round-2" element={<Round2></Round2>}></Route>
+                <Route path="round-1" element={<Round1></Round1>}></Route>
               </Route>
             </Route>
 

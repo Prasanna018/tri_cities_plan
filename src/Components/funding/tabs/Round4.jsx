@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Round6() {
+function Round4() {
     return (
         <div className='w-full'>
 
@@ -61,4 +61,4 @@ function Round6() {
     )
 }
 
-export default Round6
+export default Round4
