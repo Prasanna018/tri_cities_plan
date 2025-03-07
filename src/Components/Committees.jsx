@@ -139,14 +139,24 @@ function Committees() {
 
                         </div>
 
+                        <div className='flex flex-col  w-1/4
+                        '>
+                            <button className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-700 cursor-pointer" >
+                                <a className=''
+                                    target='_blank'
+                                    href='https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2M2YWUwNzItYzBjNy00M2UxLWJiZWEtYWRhMjBlNWFmMDg3%40thread.v2/0?context=%7b%22Tid%22%3a%22f2b3890f-4d88-47b5-9a4b-8024ce782183%22%2c%22Oid%22%3a%2277bd51e5-2771-4bf8-91f0-bc3a38108e88%22%7d'
+                                >
+                                    Join
 
-
-                        <button
-                            onClick={() => setIsOpen1(false)}
-                            className="mt-4 px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-700"
-                        >
-                            Close
-                        </button>
+                                </a>
+                            </button>
+                            <button
+                                onClick={() => setIsOpen1(false)}
+                                className="mt-4 px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-700"
+                            >
+                                Close
+                            </button>
+                        </div>
                     </div>
                 </div>
             )}
@@ -186,17 +196,31 @@ function Committees() {
                     <div className="bg-white p-6 rounded-2xl w-[90%] md:w-[50%] text-black shadow-lg border-2 border-gray-300">
 
                         <div className='flex flex-col'>
-                            <h2 className="text-2xl font-bold mb-4">Policy Committee Meetings (Past)
+                            <h2 className="text-2xl font-bold mb-4">Technical Advisory Committee Meeting (Upcoming)
 
                             </h2>
                             <a href='https://craterpdc.org/wp-content/uploads/2025/01/02-07-25-TAC-Plan2050-Committee-Agenda-Packet.pdf' className='underline' target='_blank' >March 7, 2025 TAC/PLAN2050 Committee
                             </a>
-                            <button
-                                onClick={() => setIsOpen3(false)}
-                                className="mt-4 px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-700 w-fit"
-                            >
-                                Close
-                            </button>
+
+                            <div className='flex flex-col w-1/4
+                            '>
+                                <button className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-700 cursor-pointer" >
+                                    <a className=''
+                                        target='_blank'
+                                        href='https://teams.microsoft.com/l/meetup-join/19%3ameeting_OWVkOWNlYzAtMmRhNi00MzgxLTk3ZDUtNzMyYTM5MDc4OGQx%40thread.v2/0?context=%7b%22Tid%22%3a%22f2b3890f-4d88-47b5-9a4b-8024ce782183%22%2c%22Oid%22%3a%2277bd51e5-2771-4bf8-91f0-bc3a38108e88%22%7d'
+                                    >
+                                        Join
+
+                                    </a>
+                                </button>
+
+                                <button
+                                    onClick={() => setIsOpen3(false)}
+                                    className="mt-4 px-4 py-2 bg-red-500 text-white w-full rounded-lg hover:bg-red-700"
+                                >
+                                    Close
+                                </button>
+                            </div>
                         </div>
                     </div>
 
@@ -210,7 +234,7 @@ function Committees() {
                     <div className="bg-white p-6 rounded-2xl w-[90%] md:w-[50%] text-black shadow-lg border-2 border-gray-300">
 
                         <div>
-                            <h2 className="text-2xl font-bold mb-4">Policy Committee Meetings (Past)
+                            <h2 className="text-2xl font-bold mb-4">Technical Advisory Committee (Past)
 
                             </h2>
                             {
@@ -223,6 +247,8 @@ function Committees() {
                                         href={to}>{name}</a>
                                 })
                             }
+
+
                             <button
                                 onClick={() => setIsOpen4(false)}
                                 className="mt-4 px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-700"

@@ -5,7 +5,7 @@ function Round6() {
         <div className='w-full'>
 
             <div className='py-2'>
-                <span>* Indicates the project will receive state funding. </span>
+                <span className=''>* Indicates the project will receive state funding. </span>
             </div>
             <div className='py-2'>
                 <h1 className='text-2xl font-bold'>Colonial Heights</h1>
