@@ -1,5 +1,15 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
+
+const tablinks = [
+    { id: 1, name: "Round 6", path: "round-6" },
+    { id: 2, name: "Round 5", path: "round-5" },
+    { id: 3, name: "Round 4", path: "round-4" },
+    { id: 4, name: "Round 3", path: "round-3" },
+    { id: 5, name: "Round 2", path: "round-2" },
+    { id: 6, name: "Round 1", path: "round-1" }
+]
 function Smart1() {
     return (
         <div className='p-4 bg-[#f6f6f6] text-black'>
@@ -49,6 +59,28 @@ function Smart1() {
                 </p>
             </div>
 
+
+            <div className=" lg:flex lg:justify-start gap-x-10 grid  grid-cols-2 items-center py-8">
+                {tablinks.map((link) => (
+                    <div className="relative h-[60px]">
+                        {/* Background shadow effect */}
+                        <div className="absolute top-2 left-2 w-full h-full bg-[#6e6285] rounded-xl"></div>
+
+                        {/* Foreground card wrapped in Link */}
+                        <Link
+                            to={link.path}
+                            key={link.id}
+                            className={`relative border-2 p-4 rounded-xl h-[60px] flex items-center justify-center shadow-lg 
+                                            ${location.pathname.includes(link.path) ? "bg-green-600 z-30 " : "bg-[#b7d1ea]"}`}
+                        >
+                            <span className={location.pathname.includes(link.path) ? "text-white font-bold" : ""}>
+                                {link.name}
+                            </span>
+                        </Link>
+                    </div>
+
+                ))}
+            </div>
 
 
         </div>
