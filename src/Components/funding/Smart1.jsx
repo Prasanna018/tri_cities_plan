@@ -1,6 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-
+import { Link, Outlet, useLocation } from 'react-router-dom'
 
 const tablinks = [
     { id: 1, name: "Round 6", path: "round-6" },
@@ -11,6 +10,7 @@ const tablinks = [
     { id: 6, name: "Round 1", path: "round-1" }
 ]
 function Smart1() {
+    const location = useLocation();
     return (
         <div className='p-4 bg-[#f6f6f6] text-black'>
             <div className='py-2 '>
@@ -82,6 +82,9 @@ function Smart1() {
                 ))}
             </div>
 
+            <div className='py-8'>
+                <Outlet></Outlet>
+            </div>
 
         </div>
     )

@@ -45,6 +45,7 @@ import Title from "./Components/plans/Title";
 import MultiModelPlan from "./Components/MultiModelPlan";
 import TA from "./Components/funding/TA";
 import Smart1 from "./Components/funding/Smart1";
+import Round6 from "./Components/funding/tabs/Round6";
 
 function App() {
   return (
@@ -132,7 +133,10 @@ function App() {
               <Route path="regional-surface-transportation-block-grant" element={<FFA></FFA>}></Route>
               <Route path="CMAQ-program" element={<Smart></Smart>}></Route>
               <Route path="ta-set-aside" element={<TA></TA>}></Route>
-              <Route path="SMART-SCALE" element={<Smart1></Smart1>}></Route>
+              <Route path="SMART-SCALE" element={<Smart1></Smart1>}>
+                <Route index element={<Navigate to="round-6" replace />} />
+                <Route path="round-6" element={<Round6></Round6>}></Route>
+              </Route>
             </Route>
 
 
