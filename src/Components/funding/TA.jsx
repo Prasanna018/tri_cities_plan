@@ -4,7 +4,7 @@ function TA() {
     return (
         <div className='p-4 bg-[#f6f6f6] text-black'>
             <div>
-                <h1 className='text-3xl font-bold'>Regional Surface Transportation Block Grant (RSTBG)</h1>
+                <h1 className='text-3xl font-bold'>TA Set-Aside</h1>
                 <p className='py-4'>
                     The
                     {" "}
